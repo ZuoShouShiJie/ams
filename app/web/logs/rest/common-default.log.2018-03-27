@@ -1,0 +1,99 @@
+2018-03-27 09:47:18.239 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = 6X7QISWPLLCZ
+2018-03-27 09:47:18.247 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
+2018-03-27 09:47:18.247 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.100.0.90
+2018-03-27 09:47:18.247 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!
+2018-03-27 09:47:59.701 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest provider is found . register it (commonContainerResponseFilter). 
+2018-03-27 09:48:35.296 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl)
+2018-03-27 09:48:35.731 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (accountFacadeRest). 
+2018-03-27 09:48:35.792 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl)
+2018-03-27 09:48:35.799 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (dzjkRestFacade). 
+2018-03-27 09:48:35.809 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.MqRestFacadeImpl)
+2018-03-27 09:48:35.814 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (mqRestFacade). 
+2018-03-27 09:48:58.003 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl)
+2018-03-27 09:48:58.027 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (sampleRestFacadeRest). 
+2018-03-27 09:48:58.035 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl)
+2018-03-27 09:48:58.040 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (faviconRestFacadeRest). 
+2018-03-27 09:49:00.490 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - ClientConfig{connections=10, connectTimeout=-1, socketTimeout=-1, threadPoolSize=10, retries=0}
+2018-03-27 09:49:00.749 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest client started.
+2018-03-27 09:49:01.344 [main] INFO  c.a.sofa.rest.server.netty.SofaRestNettyServer - server connector works,Connector{port=8341, hostname='null',maxRequestSize =10485760, isKeepAlive=true, exposed=true, sslContext=null}. Configured min.pool.size=100,max.pool.size=200,queue.pool.size=500,prestart=false
+2018-03-27 09:49:01.363 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest server is started.
+2018-03-27 09:49:01.364 [main] INFO  c.a.sofa.rest.spring.support.RestComponentsLog - 
+====== rest resources and providers ======
+providers:
+  class com.dzjk.ams.core.common.filter.CommonContainerResponseFilter
+  class org.jboss.resteasy.plugins.providers.ServerFormUrlEncodedProvider
+
+resources:
+  name:sampleRestFacadeRest,class com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl
+  name:mqRestFacade,class com.dzjk.ams.endpoint.action.MqRestFacadeImpl
+  name:dzjkRestFacade,class com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl
+  name:accountFacadeRest,class com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl
+  name:faviconRestFacadeRest,class com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl
+
+2018-03-27 09:49:01.364 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - sofa rest started.
+2018-03-27 10:38:11.619 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = 6X7QISWPLLCZ
+2018-03-27 10:38:11.619 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
+2018-03-27 10:38:11.619 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.100.0.90
+2018-03-27 10:38:11.619 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!
+2018-03-27 10:38:49.128 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest provider is found . register it (commonContainerResponseFilter). 
+2018-03-27 10:39:24.337 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl)
+2018-03-27 10:39:24.625 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (accountFacadeRest). 
+2018-03-27 10:39:24.690 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl)
+2018-03-27 10:39:24.698 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (dzjkRestFacade). 
+2018-03-27 10:39:24.711 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.MqRestFacadeImpl)
+2018-03-27 10:39:24.720 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (mqRestFacade). 
+2018-03-27 10:39:46.889 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl)
+2018-03-27 10:39:46.912 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (sampleRestFacadeRest). 
+2018-03-27 10:39:46.919 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl)
+2018-03-27 10:39:46.925 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (faviconRestFacadeRest). 
+2018-03-27 10:39:49.248 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - ClientConfig{connections=10, connectTimeout=-1, socketTimeout=-1, threadPoolSize=10, retries=0}
+2018-03-27 10:39:49.470 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest client started.
+2018-03-27 10:39:49.961 [main] INFO  c.a.sofa.rest.server.netty.SofaRestNettyServer - server connector works,Connector{port=8341, hostname='null',maxRequestSize =10485760, isKeepAlive=true, exposed=true, sslContext=null}. Configured min.pool.size=100,max.pool.size=200,queue.pool.size=500,prestart=false
+2018-03-27 10:39:49.978 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest server is started.
+2018-03-27 10:39:49.978 [main] INFO  c.a.sofa.rest.spring.support.RestComponentsLog - 
+====== rest resources and providers ======
+providers:
+  class com.dzjk.ams.core.common.filter.CommonContainerResponseFilter
+  class org.jboss.resteasy.plugins.providers.ServerFormUrlEncodedProvider
+
+resources:
+  name:sampleRestFacadeRest,class com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl
+  name:mqRestFacade,class com.dzjk.ams.endpoint.action.MqRestFacadeImpl
+  name:dzjkRestFacade,class com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl
+  name:accountFacadeRest,class com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl
+  name:faviconRestFacadeRest,class com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl
+
+2018-03-27 10:39:49.978 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - sofa rest started.
+2018-03-27 10:49:29.592 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = 6X7QISWPLLCZ
+2018-03-27 10:49:29.592 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
+2018-03-27 10:49:29.592 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.100.0.90
+2018-03-27 10:49:29.592 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!
+2018-03-27 10:50:07.313 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest provider is found . register it (commonContainerResponseFilter). 
+2018-03-27 10:50:42.451 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl)
+2018-03-27 10:50:42.708 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (accountFacadeRest). 
+2018-03-27 10:50:42.780 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl)
+2018-03-27 10:50:42.789 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (dzjkRestFacade). 
+2018-03-27 10:50:42.795 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.MqRestFacadeImpl)
+2018-03-27 10:50:42.803 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (mqRestFacade). 
+2018-03-27 10:51:04.868 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl)
+2018-03-27 10:51:04.889 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (sampleRestFacadeRest). 
+2018-03-27 10:51:04.895 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - register rest resource(name:com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl)
+2018-03-27 10:51:04.899 [main] INFO  c.a.s.r.s.RestComponentsPropertyInjectProcessor - A rest resource is found . register it (faviconRestFacadeRest). 
+2018-03-27 10:51:06.688 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - ClientConfig{connections=10, connectTimeout=-1, socketTimeout=-1, threadPoolSize=10, retries=0}
+2018-03-27 10:51:06.917 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest client started.
+2018-03-27 10:51:07.385 [main] INFO  c.a.sofa.rest.server.netty.SofaRestNettyServer - server connector works,Connector{port=8341, hostname='null',maxRequestSize =10485760, isKeepAlive=true, exposed=true, sslContext=null}. Configured min.pool.size=100,max.pool.size=200,queue.pool.size=500,prestart=false
+2018-03-27 10:51:07.404 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap -  rest server is started.
+2018-03-27 10:51:07.405 [main] INFO  c.a.sofa.rest.spring.support.RestComponentsLog - 
+====== rest resources and providers ======
+providers:
+  class org.jboss.resteasy.plugins.providers.ServerFormUrlEncodedProvider
+  class com.dzjk.ams.core.common.filter.CommonContainerResponseFilter
+
+resources:
+  name:sampleRestFacadeRest,class com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl
+  name:mqRestFacade,class com.dzjk.ams.endpoint.action.MqRestFacadeImpl
+  name:dzjkRestFacade,class com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl
+  name:accountFacadeRest,class com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl
+  name:faviconRestFacadeRest,class com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl
+
+2018-03-27 10:51:07.405 [main] INFO  com.alipay.sofa.rest.bootstrap.RestBootstrap - sofa rest started.

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.AccountRepayPlanDOMapper">
+    <!-- 自动生成,请修改 AMS_ACCOUNT_REPAY_PLAN.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.AccountRepayExDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="BO_ID" property="boId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ORG_ID" property="orgId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="STATUS" property="status" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_ID" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CHANNEL" property="channel" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PERIOD_NUM" property="periodNum" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PUNISH_FEE" property="punishFee" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="REPAY_DATE" property="repayDate" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="OVERDUE_DAY" property="overdueDay" jdbcType="VARCHAR" javaType="String"/>
+        <result column="SERVICE_FEE" property="serviceFee" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_STATUS" property="repayStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="INTEREST_ACCU" property="interestAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="RETURN_AMOUNT" property="returnAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="SERVICE_FEE_ID" property="serviceFeeId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CAPITAL_AMOUNT" property="capitalAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="PUNISH_FEE_ACCU" property="punishFeeAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="REAL_REPAY_DATE" property="realRepayDate" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="INTEREST_AMOUNT" property="interestAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="PUNISH_FEE_OWNER" property="punishFeeOwner" jdbcType="VARCHAR" javaType="String"/>
+        <result column="SERVICE_FEE_ACCU" property="serviceFeeAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="TOTAL_CAPITAL_ACCU" property="totalCapitalAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="TOTAL_CAPITAL_LEFT" property="totalCapitalLeft" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="PUNISH_UPDATED_TIME" property="punishUpdatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+    </resultMap>
+
+    <resultMap id="BaseResultMapRepayment"  type="com.dzjk.ams.dal.dataobject.TodayRepaymentDO">
+        <id column="id" property="id" jdbcType="VARCHAR" javaType="String"/>
+        <result column="bo_id" property="boId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="org_id" property="orgId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="period_num" property="periodNum" jdbcType="VARCHAR" javaType="String"/>
+        <result column="contract_no" property="contractNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="capital_amount" property="capitalAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="repay_date" property="repayDate" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="interest_amount" property="interestAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="service_fee" property="serviceFee" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="punish_fee" property="punishFee" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="repay_account_name" property="repayAccountName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="repay_account_no" property="repayAccountNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="repay_status" property="repayStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="user_id" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="repay_acct_bank" property="repayAcctBank" jdbcType="VARCHAR" javaType="String"/>
+        <result column="repay_acct_phone" property="repayAcctPhone" jdbcType="VARCHAR" javaType="String"/>
+        <result column="br_user_id" property="brUserId" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID,BO_ID,ORG_ID,STATUS,USER_ID,CHANNEL,CREATED_BY,PERIOD_NUM,PUNISH_FEE,REPAY_DATE,UPDATED_BY,OVERDUE_DAY,SERVICE_FEE,CREATED_TIME,REPAY_STATUS,UPDATED_TIME,INTEREST_ACCU,RETURN_AMOUNT,SERVICE_FEE_ID,CAPITAL_AMOUNT,PUNISH_FEE_ACCU,REAL_REPAY_DATE,INTEREST_AMOUNT,PUNISH_FEE_OWNER,SERVICE_FEE_ACCU,TOTAL_CAPITAL_ACCU,TOTAL_CAPITAL_LEFT,PUNISH_UPDATED_TIME
+    </sql>
+
+
+    <!--插入表:AMS_ACCOUNT_REPAY_PLAN-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_ACCOUNT_REPAY_PLAN(
+        ID
+        ,BO_ID
+        ,ORG_ID
+        ,STATUS
+        ,USER_ID
+        ,CHANNEL
+        ,CREATED_BY
+        ,PERIOD_NUM
+        ,PUNISH_FEE
+        ,REPAY_DATE
+        ,UPDATED_BY
+        ,OVERDUE_DAY
+        ,SERVICE_FEE
+        ,CREATED_TIME
+        ,REPAY_STATUS
+        ,UPDATED_TIME
+        ,INTEREST_ACCU
+        ,RETURN_AMOUNT
+        ,SERVICE_FEE_ID
+        ,CAPITAL_AMOUNT
+        ,PUNISH_FEE_ACCU
+        ,REAL_REPAY_DATE
+        ,INTEREST_AMOUNT
+        ,PUNISH_FEE_OWNER
+        ,SERVICE_FEE_ACCU
+        ,TOTAL_CAPITAL_ACCU
+        ,TOTAL_CAPITAL_LEFT
+        ,PUNISH_UPDATED_TIME
+        )VALUES(
+        #{id,jdbcType=BIGINT}
+        , #{boId,jdbcType=VARCHAR}
+        , #{orgId,jdbcType=BIGINT}
+        , #{status,jdbcType=VARCHAR}
+        , #{userId,jdbcType=VARCHAR}
+        , #{channel,jdbcType=VARCHAR}
+        , #{createdBy,jdbcType=VARCHAR}
+        , #{periodNum,jdbcType=VARCHAR}
+        , #{punishFee,jdbcType=DECIMAL}
+        , #{repayDate,jdbcType=DATE}
+        , #{updatedBy,jdbcType=VARCHAR}
+        , #{overdueDay,jdbcType=VARCHAR}
+        , #{serviceFee,jdbcType=DECIMAL}
+        , #{createdTime,jdbcType=TIMESTAMP}
+        , #{repayStatus,jdbcType=VARCHAR}
+        , #{updatedTime,jdbcType=TIMESTAMP}
+        , #{interestAccu,jdbcType=DECIMAL}
+        , #{returnAmount,jdbcType=DECIMAL}
+        , #{serviceFeeId,jdbcType=VARCHAR}
+        , #{capitalAmount,jdbcType=DECIMAL}
+        , #{punishFeeAccu,jdbcType=DECIMAL}
+        , #{realRepayDate,jdbcType=DATE}
+        , #{interestAmount,jdbcType=DECIMAL}
+        , #{punishFeeOwner,jdbcType=VARCHAR}
+        , #{serviceFeeAccu,jdbcType=DECIMAL}
+        , #{totalCapitalAccu,jdbcType=DECIMAL}
+        , #{totalCapitalLeft,jdbcType=DECIMAL}
+        , #{punishUpdatedTime,jdbcType=TIMESTAMP}
+        )
+    </insert>
+
+    <!--更新表:AMS_ACCOUNT_REPAY_PLAN-->
+    <update id="update" >
+        UPDATE /*MS-AMS-ACCOUNT-REPAY-PLAN-UPDATE*/ AMS_ACCOUNT_REPAY_PLAN
+        SET
+        BO_ID           = #{boId,jdbcType=VARCHAR}
+        ,STATUS          = #{status,jdbcType=VARCHAR}
+        ,USER_ID         = #{userId,jdbcType=VARCHAR}
+        ,CHANNEL         = #{channel,jdbcType=VARCHAR}
+        ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+        ,PERIOD_NUM      = #{periodNum,jdbcType=VARCHAR}
+        ,PUNISH_FEE      = #{punishFee,jdbcType=DECIMAL}
+        ,REPAY_DATE      = #{repayDate,jdbcType=VARCHAR}
+        ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+        ,OVERDUE_DAY     = #{overdueDay,jdbcType=VARCHAR}
+        ,SERVICE_FEE     = #{serviceFee,jdbcType=DECIMAL}
+        ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+        ,REPAY_STATUS    = #{repayStatus,jdbcType=VARCHAR}
+        ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+        ,INTEREST_ACCU   = #{interestAccu,jdbcType=DECIMAL}
+        ,RETURN_AMOUNT   = #{returnAmount,jdbcType=DECIMAL}
+        ,SERVICE_FEE_ID  = #{serviceFeeId,jdbcType=VARCHAR}
+        ,CAPITAL_AMOUNT  = #{capitalAmount,jdbcType=DECIMAL}
+        ,PUNISH_FEE_ACCU = #{punishFeeAccu,jdbcType=DECIMAL}
+        ,REAL_REPAY_DATE = #{realRepayDate,jdbcType=VARCHAR}
+        ,INTEREST_AMOUNT = #{interestAmount,jdbcType=DECIMAL}
+        ,PUNISH_FEE_OWNER = #{punishFeeOwner,jdbcType=VARCHAR}
+        ,SERVICE_FEE_ACCU = #{serviceFeeAccu,jdbcType=DECIMAL}
+        ,TOTAL_CAPITAL_ACCU = #{totalCapitalAccu,jdbcType=DECIMAL}
+        ,TOTAL_CAPITAL_LEFT = #{totalCapitalLeft,jdbcType=DECIMAL}
+        ,PUNISH_UPDATED_TIME = #{punishUpdatedTime,jdbcType=TIMESTAMP}
+        WHERE
+        ID              = #{id,jdbcType=BIGINT}
+        AND ORG_ID          = #{orgId,jdbcType=BIGINT}
+    </update>
+
+    <!--根据主键删除数据:AMS_ACCOUNT_REPAY_PLAN-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-AMS-ACCOUNT-REPAY-PLAN-DELETEBYPRIMARY*/ FROM
+        AMS_ACCOUNT_REPAY_PLAN
+        WHERE
+        ID = #{id,jdbcType=BIGINT}
+        AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </delete>
+
+    <!--根据主键获取数据:AMS_ACCOUNT_REPAY_PLAN-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_REPAY_PLAN
+        WHERE
+        ID = #{id,jdbcType=BIGINT}
+        AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </select>
+
+    <!--通过userId 和boId查询还款计划-->
+    <select id="queryRepayPlanById" resultMap="BaseResultMap">
+        SELECT *
+        FROM AMS_ACCOUNT_REPAY_PLAN repay
+        WHERE repay.status=1
+        and USER_ID = #{userId,jdbcType=VARCHAR}
+        AND BO_ID = #{boId,jdbcType=VARCHAR}
+        <if test="orgId!=''and orgId!=null">
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+        </if>
+        limit #{startRow},#{limit}
+    </select>
+
+    <!---->
+    <select id="queryRepayPlanCount" resultType="java.lang.Integer">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-QUERYREPAYPLANCOUNT*/  count(*)
+        FROM AMS_ACCOUNT_REPAY_PLAN repay
+        WHERE repay.status=1
+        and repay.USER_ID = #{userId,jdbcType=VARCHAR}
+        AND repay.BO_ID = #{boId,jdbcType=VARCHAR}
+        <if test="orgId!=''and orgId!=null">
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+        </if>
+    </select>
+
+    <!--通过userId 和boId查询还款计划-->
+    <select id="queryPreRepayTry" resultMap="BaseResultMap" >
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-QUERYPREREPAYTRY*/  repay.ID,repay.BO_ID,repay.ORG_ID,repay.STATUS,repay.USER_ID,repay.CHANNEL,repay.CREATED_BY,repay.PERIOD_NUM,repay.PUNISH_FEE,repay.REPAY_DATE,repay.UPDATED_BY,repay.OVERDUE_DAY,
+        repay.SERVICE_FEE,repay.CREATED_TIME,repay.REPAY_STATUS,repay.UPDATED_TIME,repay.INTEREST_ACCU,repay.RETURN_AMOUNT,repay.SERVICE_FEE_ID,repay.CAPITAL_AMOUNT,repay.PUNISH_FEE_ACCU,repay.REAL_REPAY_DATE,repay.INTEREST_AMOUNT,repay.PUNISH_FEE_OWNER,repay.SERVICE_FEE_ACCU,
+        repay.TOTAL_CAPITAL_ACCU,repay.TOTAL_CAPITAL_LEFT,repay.PUNISH_UPDATED_TIME,
+        sum(fee.fee_amount) as 'allServiceFee'
+        FROM AMS_ACCOUNT_REPAY_PLAN repay,AMS_ACCOUNT_REPAY_SERVICE_FEE fee
+        WHERE repay.status=1 and repay.service_fee_id=fee.service_fee_id
+        <if test="repayStatus!=null">
+            and repay.repay_status in
+            <foreach collection="repayStatus" item="repayStatus" index="index" open="(" close=")" separator=",">
+                #{repayStatus,jdbcType=VARCHAR}
+            </foreach>
+        </if>
+        <if test="feeType !='' and feeType!=null">
+            and fee.fee_type=#{feeType,jdbcType=VARCHAR}
+        </if>
+        and repay.USER_ID = #{userId,jdbcType=VARCHAR}
+        AND repay.BO_ID = #{boId,jdbcType=VARCHAR}
+        GROUP BY fee.service_fee_id  order BY period_num;
+    </select>
+
+
+    <select id="queryRepayStatus" resultMap="BaseResultMap" parameterType="object">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_REPAY_PLAN
+        WHERE status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <update id="updateStatus"  parameterType="object">
+        UPDATE AMS_ACCOUNT_REPAY_PLAN SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+    <update id="updatePlanInfo"  parameterType="object">
+        UPDATE AMS_ACCOUNT_REPAY_PLAN SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        ,updated_time= #{updatedTime,jdbcType=TIMESTAMP}
+        ,real_repay_date=#{realRepayDate,jdbcType=DATE}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+    <update id="updatePlanFail"  parameterType="object">
+        UPDATE AMS_ACCOUNT_REPAY_PLAN SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        ,updated_time= #{updatedTime,jdbcType=TIMESTAMP}
+        ,OVERDUE_DAY=#{overdueDay,jdbcType=VARCHAR}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+    <select id="queryRepayPlanByDate" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-QUERYPREREPAYTRY*/  repay.ID,repay.BO_ID,repay.ORG_ID,repay.STATUS,repay.USER_ID,repay.CHANNEL,repay.CREATED_BY,repay.PERIOD_NUM,repay.PUNISH_FEE,repay.REPAY_DATE,repay.UPDATED_BY,repay.OVERDUE_DAY,
+        repay.SERVICE_FEE,repay.CREATED_TIME,repay.REPAY_STATUS,repay.UPDATED_TIME,repay.INTEREST_ACCU,repay.RETURN_AMOUNT,repay.SERVICE_FEE_ID,repay.CAPITAL_AMOUNT,repay.PUNISH_FEE_ACCU,repay.REAL_REPAY_DATE,repay.INTEREST_AMOUNT,repay.PUNISH_FEE_OWNER,repay.SERVICE_FEE_ACCU,
+        repay.TOTAL_CAPITAL_ACCU,repay.TOTAL_CAPITAL_LEFT,repay.PUNISH_UPDATED_TIME,
+        sum(fee.fee_amount) as 'allServiceFee'
+        FROM AMS_ACCOUNT_REPAY_PLAN repay,AMS_ACCOUNT_REPAY_SERVICE_FEE fee
+        WHERE repay.status=1 and repay.service_fee_id=fee.service_fee_fid
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="repayDate !='' and repayDate !=null">
+            AND REPAY_DATE = #{repayDate,jdbcType=TIMESTAMP}
+        </if>
+    </select>
+
+    <!--查询还款扣款文件字段-->
+    <select id="selectByAccountRepayPlanRepaymentDO" resultMap="BaseResultMapRepayment">
+        SELECT
+        ap.id id,
+        ap.bo_id boId,
+        ap.org_id orgId,
+        ap.user_id userId,
+        ab.repay_acct_bank repayAcctBank,
+        ab.repay_acct_phone repayAcctPhone,
+        ab.br_user_id brUserId,
+        ap.punish_fee punishFee,
+        ap.capital_amount capitalAmount,
+        ap.interest_amount interestAmount,
+        ap.service_fee serviceFee,
+        ap.repay_date repayDate,
+        ap.period_num periodNum,
+        ab.repay_account_name repayAccountName,
+        ab.repay_account_no repayAccountNo
+        FROM AMS_ACCOUNT_REPAY_PLAN ap left join AMS_ACCOUNT_BORROW ab
+        on ap.user_id = ab.user_id and ap.bo_id=ab.bo_id
+        WHERE
+        <if test="repayDate !='' and repayDate !=null">
+            ap.repay_date = #{repayDate,jdbcType=TIMESTAMP}
+        </if>
+    </select>
+
+    <!--查询当天还款文件字段  备注:个别字段未确定,故sql为写完-->
+    <select id="selectByTodayRepaymentDO" resultMap="BaseResultMapRepayment">
+        SELECT
+        ap.id id,
+        ap.bo_id boId,
+        ap.org_id orgId,
+        ap.user_id userId,
+        ap.period_num periodNum,
+        ab.contract_no contractNo,
+        ap.capital_amount capitalAmount,
+        ap.repay_date repayDate,
+        ap.capital_amount capitalAmount,
+        ap.interest_amount interestAmount,
+        ap.service_fee serviceFee,
+        ap.punish_fee punishFee,
+        ab.repay_account_name repayAccountName,
+        ab.repay_account_no repayAccountNo,
+        ap.repay_status repayStatus
+        FROM ams_account_repay_plan ap left join ams_account_borrow ab
+        on ap.user_id = ab.user_id
+        WHERE DATE_FORMAT(ap.repay_date, '%Y%m') = DATE_FORMAT(CURDATE( ), '%Y%m');
+    </select>
+
+
+
+</mapper>

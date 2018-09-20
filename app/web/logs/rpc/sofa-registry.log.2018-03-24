@@ -1,0 +1,8 @@
+2018-03-24 10:14:10,388 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 11:31:17,384 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 11:51:41,322 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 12:09:41,456 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 12:22:05,455 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 12:43:46,463 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 12:49:42,856 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 
+2018-03-24 12:57:56,205 INFO  main                             RPC-REGISTRY - RPC-00201: 发布 RPC 服务：服务名[com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT] 

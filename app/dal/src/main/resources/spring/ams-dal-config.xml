@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://mybatis.org/schema/mybatis-spring
+       http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+       default-autowire="byName">
+
+    <tx:annotation-driven />
+    <context:component-scan base-package="com.dzjk.ams.dal"/>
+
+    <!-- enable autowire -->
+    <context:annotation-config/>
+
+
+    <bean id="ams.dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="url" value="${ams.jdbc.url}"/>
+        <property name="username" value="${ams.jdbc.username}"/>
+        <property name="password" value="${ams.jdbc.passwd}"/>
+        <property name="driverClassName" value="${ams.jdbc.driverClassName}"/>
+        <property name="filters" value="${ams.druid.filters}"/>
+        <property name="maxActive" value="${ams.maxActive}"/>
+        <property name="initialSize" value="${ams.initialSize}"/>
+        <property name="minIdle" value="${ams.minIdle}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${ams.timeBetweenEvictionRunsMillis}"/>
+        <property name="minEvictableIdleTimeMillis" value="${ams.minEvictableIdleTimeMillis}"/>
+        <property name="validationQuery" value="${ams.validationQuery}"/>
+        <property name="testWhileIdle" value="${ams.testWhileIdle}"/>
+        <property name="testOnBorrow" value="${ams.testOnBorrow}"/>
+        <property name="testOnReturn" value="${ams.testOnReturn}"/>
+        <property name="maxOpenPreparedStatements" value="${ams.maxOpenPreparedStatements}"/>
+        <property name="poolPreparedStatements" value="${ams.poolPreparedStatements}"/>
+        <property name="removeAbandoned" value="${ams.removeAbandoned}"/>
+        <property name="removeAbandonedTimeout" value="${ams.removeAbandonedTimeout}"/>
+        <property name="logAbandoned" value="${ams.logAbandoned}"/>
+
+        <property name="defaultAutoCommit" value="${ams.defaultAutoCommit}"/>
+    </bean>
+
+    <bean id="ams.transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="ams.transactionManager" />
+    </bean>
+
+
+    <bean id="ams.transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="ams.dataSource"/>
+    </bean>
+
+    <bean id="ams.sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="ams.dataSource" />
+        <property name="mapperLocations" value="classpath*:com/dzjk/ams/dal/mapper/*.xml"/>
+    </bean>
+
+    <bean id="ams.SqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="ams.sqlSessionFactory" />
+    </bean>
+
+    <mybatis:scan base-package="com.dzjk.ams.dal.mapper"
+                  template-ref="ams.SqlSessionTemplate"/>
+
+
+</beans>

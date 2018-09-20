@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://schema.alipay.com/sofa/schema/slite   http://schema.alipay.com/sofa/slite.xsd"
+       default-autowire="byName">
+
+    <!-- this filter is in the aim of ensuring corss-orgin request -->
+    <bean id="commonContainerResponseFilter" class="com.dzjk.ams.core.common.filter.CommonContainerResponseFilter">
+        <property name="allowedOrigins">
+            <set>
+                <!-- in the production environment, here should be the domain of the production environment-->
+                <value>http://localhost:80</value>
+                <value>http://localhost:8341</value>
+                <!-- this line ensures usage of postman plugin in chrome -->
+                <value>chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop</value>
+            </set>
+        </property>
+    </bean>
+
+
+    <!-- mq REST interface -->
+    <bean id="mqRestFacade" class="com.dzjk.ams.endpoint.action.MqRestFacadeImpl">
+        <property name="mqService" ref="mqService"/>
+    </bean>
+
+    <!-- mq Service -->
+    <bean id="mqService" class="com.dzjk.ams.endpoint.service.MqService">
+        <property name="mqPublisher" ref="mqPublisher"/>
+    </bean>
+
+    <!-- Declare a publisher bean with id "mqPublisher" -->
+    <sofa:publisher id="mqPublisher" group="P_ams_mq">
+        <sofa:channels>
+            <sofa:channel value="TP_AMS"/>
+        </sofa:channels>
+        <sofa:binding.msg_broker/>
+    </sofa:publisher>
+
+    <!-- Declare a consumer bean with id "mqConsumer" -->
+    <sofa:consumer id="mqConsumer" group="S_ams_mq">
+        <sofa:listener ref="mqMessageListener"/>
+        <sofa:channels>
+            <sofa:channel value="TP_AMS">
+                <sofa:event eventType="direct" eventCode="EC_AMS" persistence="true"/>
+            </sofa:channel>
+        </sofa:channels>
+        <sofa:binding.msg_broker/>
+    </sofa:consumer>
+
+    <!--账务监听-->
+    <sofa:consumer id="mqConsumer" group="S_ams_mq">
+        <sofa:listener ref="accountMqListener"/>
+        <sofa:channels>
+            <sofa:channel value="TP_AMS">
+                <sofa:event eventType="direct" eventCode="EC_AMS" persistence="true"/>
+            </sofa:channel>
+        </sofa:channels>
+        <sofa:binding.msg_broker/>
+    </sofa:consumer>
+
+
+
+    <!-- 声明服务的实现对象
+    <bean id="sampleRestFacadeRest" class="com.test.endpoint.impl.SampleRestFacadeRestImpl"/>
+-->
+    <!-- Publish tr service -->
+ <!--   <sofa:service interface="com.dzjk.ams.endpoint.facade.SampleRestFacade" ref="sampleRestFacadeRest">
+        <sofa:binding.tr>
+            &lt;!&ndash; 如果配置了 method ，优先使用 method 配置 &ndash;&gt;
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>
+    </sofa:service>
+
+    &lt;!&ndash; Publish tr service &ndash;&gt;
+    <sofa:service interface="com.dzjk.ams.endpoint.facade.DzjkRestFacade" ref="dzjkRestFacadeRest">
+        <sofa:binding.tr>
+            &lt;!&ndash; 如果配置了 method ，优先使用 method 配置 &ndash;&gt;
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>
+    </sofa:service>-->
+
+    <bean id="accountFacadeRest" class="com.dzjk.ams.endpoint.action.account.AccountFacadeRestImpl"/>
+    <sofa:service interface="com.dzjk.ams.facade.api.account.AccountRestFacade" ref="accountFacadeRest">
+        <sofa:binding.tr>
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>
+    </sofa:service>
+
+    <bean id="accountApiFacade" class="com.dzjk.ams.endpoint.action.account.AccountFacadeApiImpl"/>
+    <sofa:service interface="com.dzjk.ams.facade.api.account.AccountApiFacade" ref="accountApiFacade">
+        <sofa:binding.tr>
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>
+    </sofa:service>
+
+
+
+<sofa:reference interface="com.dzjk.product.facade.ProductSelectedService" id="productSelectedService" >
+
+</sofa:reference>
+
+
+
+    <bean id="mqMessageListener" class="com.dzjk.ams.endpoint.service.MqMessageListener"/>
+    <bean id="accountMqListener" class="com.dzjk.ams.endpoint.service.AccountMqListener"/>
+
+    <!-- sofa rest resource to deal with rest request -->
+    <bean id="sampleRestFacadeRest" class="com.dzjk.ams.endpoint.action.SampleRestFacadeRestImpl"/>
+    <bean id="dzjkRestFacade" class="com.dzjk.ams.endpoint.action.DzjkRestFacadeRestImpl"/>
+    <bean id="faviconRestFacadeRest" class="com.dzjk.ams.endpoint.action.FaviconRestFacadeRestImpl"/>
+    <!-- 定时任务 -->
+    <bean id="dzjkPayJob" class="com.dzjk.ams.endpoint.job.DzjkPayJob" />
+    <bean id="dzjkAccountJob" class="com.dzjk.ams.endpoint.job.DzjkAccountJob"/>
+    <bean id="todayRepaymentAccountJob" class="com.dzjk.ams.endpoint.job.TodayRepaymentAccountJob"/>
+    <bean id="ossDownloadAccountJob" class="com.dzjk.ams.endpoint.job.OssDownloadAccountJob"/>
+    <bean id="deleteFileJob" class="com.dzjk.ams.endpoint.job.DeleteFileJob"/>
+</beans>

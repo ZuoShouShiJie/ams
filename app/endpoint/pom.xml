@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.dzjk.ams</groupId>
+        <artifactId>ams-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <groupId>com.dzjk.ams</groupId>
+    <artifactId>ams-endpoint</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dzjk.product</groupId>
+            <artifactId>product-facade</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.dzjk.ams</groupId>
+            <artifactId>ams-dal</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dzjk.ams</groupId>
+            <artifactId>ams-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dzjk.ams</groupId>
+            <artifactId>ams-facade</artifactId>
+        </dependency>
+
+        <!-- spring dependency -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+        <!-- sofa rest middleware -->
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>sofarest-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>mq-spring-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- 定时任务调度依赖 -->
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>scheduler-spring-boot-starter</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>sofarpc-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alipay.antschedulerclient</groupId>
+            <artifactId>antschedulerclient-core</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>

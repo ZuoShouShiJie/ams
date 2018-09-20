@@ -1,0 +1,786 @@
+[2018-04-02 11:07:22,035][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 11:07:22,050][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 11:08:22,053][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 11:08:22,054][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:09:22,057][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 11:09:22,058][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 11:10:22,062][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:10:22,062][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:11:22,065][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:11:22,065][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:12:22,444][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:12:22,444][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:15:06,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 11:15:06,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 11:16:06,488][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 11:16:06,488][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:18:50,648][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 11:18:50,649][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 11:19:50,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 11:19:50,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:20:50,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 11:20:50,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 11:22:02,377][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:22:02,378][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:23:46,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:3
+[2018-04-02 11:23:46,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,3;
+[2018-04-02 11:24:46,598][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:24:46,598][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:25:46,594][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:25:46,594][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:26:46,591][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:26:46,591][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:27:46,588][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:27:46,588][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:28:46,586][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:28:46,586][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:29:46,583][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:29:46,583][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:30:46,580][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:30:46,580][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:31:46,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:31:46,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:32:46,574][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:32:46,574][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:33:46,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:33:46,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:34:46,569][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:34:46,569][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:35:46,566][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:35:46,566][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:36:46,563][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:36:46,563][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:37:46,567][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:37:46,567][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:38:46,576][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:38:46,576][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:39:46,585][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 11:39:46,586][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 11:41:18,300][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:41:18,302][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:46:23,681][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 11:46:23,681][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 11:47:23,684][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 11:47:23,684][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:48:23,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 11:48:23,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 11:49:23,779][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:3
+[2018-04-02 11:49:23,779][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,3;
+[2018-04-02 11:50:35,794][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:0, totalQueryCount:0
+[2018-04-02 11:50:35,797][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 
+[2018-04-02 11:52:16,683][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:2
+[2018-04-02 11:52:16,683][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,2;
+[2018-04-02 11:53:16,686][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:53:16,686][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:54:16,688][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:54:16,688][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:55:16,685][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:55:16,685][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:56:16,682][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:56:16,683][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:57:16,680][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 11:57:16,680][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 11:58:16,677][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:58:16,677][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 11:59:16,676][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 11:59:16,677][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:00:16,680][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:00:16,680][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:01:16,683][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:01:16,683][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:02:16,686][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:02:16,687][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:03:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:03:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:04:16,693][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:04:16,694][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:05:16,697][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:05:16,697][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:06:16,700][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:06:16,700][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:07:16,703][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:07:16,703][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:08:16,706][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:08:16,706][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:09:16,710][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:09:16,710][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:10:16,713][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:10:16,713][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:11:16,716][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:11:16,716][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:12:16,708][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:12:16,708][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:13:16,699][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:13:16,699][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:14:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:14:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:15:16,682][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:15:16,682][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:16:16,673][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:16:16,673][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:17:16,670][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:17:16,670][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:18:16,667][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:18:16,667][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:19:16,664][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:19:16,664][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:20:16,661][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:20:16,661][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:21:16,658][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:21:16,658][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:22:16,656][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:22:16,656][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:23:16,654][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:23:16,654][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:24:16,651][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:24:16,651][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:25:16,648][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:25:16,648][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:26:16,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:26:16,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:27:16,643][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:27:16,643][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:28:16,642][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:28:16,642][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:29:16,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:29:16,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:30:16,661][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:30:16,661][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:31:16,670][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:31:16,670][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:32:16,679][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:32:16,679][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:33:16,687][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:33:16,687][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:34:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:34:16,690][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:35:16,693][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:35:16,693][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:36:16,697][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:36:16,697][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:37:16,700][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:37:16,700][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:38:16,703][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:38:16,703][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:39:16,706][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:39:16,706][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:40:16,709][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:40:16,709][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:41:16,712][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:41:16,712][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:42:16,715][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:42:16,715][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:43:16,718][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:43:16,718][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:44:16,721][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:44:16,721][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:45:16,724][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:45:16,724][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:46:16,727][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:46:16,727][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:47:16,730][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:47:16,730][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:48:16,733][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:48:16,733][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:49:16,736][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:49:16,736][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:50:16,739][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:50:16,739][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:51:16,742][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:51:16,742][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:52:16,745][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:52:16,745][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:53:16,748][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:53:16,748][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:54:16,751][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:54:16,751][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:55:16,754][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:55:16,754][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 12:56:16,757][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:56:16,757][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:57:16,760][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:57:16,760][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:58:16,763][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 12:58:16,763][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 12:59:16,766][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 12:59:16,766][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:00:16,769][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:00:16,769][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:01:16,772][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:01:16,772][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:02:16,775][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:02:16,775][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:03:16,774][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:03:16,774][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:04:16,771][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:04:16,771][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:05:16,768][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:05:16,768][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:08:52,282][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 13:08:52,283][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 13:09:52,286][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 13:09:52,286][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:10:52,289][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:10:52,289][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:11:52,292][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:11:52,292][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:14:55,080][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 13:14:55,080][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 13:15:55,083][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 13:15:55,083][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:16:55,086][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:16:55,087][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:20:25,972][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 13:20:25,973][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 13:21:25,964][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 13:21:25,964][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:22:25,956][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:22:25,956][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:23:25,947][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:23:25,947][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:24:25,939][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:24:25,939][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:25:25,936][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:25:25,936][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:26:25,933][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:26:25,933][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:30:52,421][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 13:30:52,422][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 13:31:52,419][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 13:31:52,419][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:32:52,416][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:32:52,416][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:33:52,413][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:33:52,413][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:34:52,411][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:34:52,411][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:35:52,408][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:35:52,408][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:36:52,405][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:36:52,405][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:37:52,403][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:37:52,403][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:38:52,401][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 13:38:52,401][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 13:39:52,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 13:39:52,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 13:40:52,402][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:40:52,402][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:41:52,399][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 13:41:52,399][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 13:42:52,396][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 13:42:52,396][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 13:43:52,394][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:43:52,394][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:44:52,394][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:44:52,394][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:45:52,397][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:45:52,397][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:46:52,400][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:46:52,400][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:49:34,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 13:49:34,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 13:50:34,639][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 13:50:34,639][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:51:34,642][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:51:34,643][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:52:34,646][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:52:34,646][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:53:34,649][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:53:34,650][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:54:34,653][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:54:34,654][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:55:34,659][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 13:55:34,659][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 13:56:34,663][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:56:34,663][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 13:57:34,666][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 13:57:34,666][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:00:11,630][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 14:00:11,630][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 14:01:11,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 14:01:11,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:02:11,636][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:02:11,636][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:04:41,152][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 14:04:41,152][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 14:05:41,155][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 14:05:41,155][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:06:41,158][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:2
+[2018-04-02 14:06:41,158][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,2;
+[2018-04-02 14:07:55,926][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:3
+[2018-04-02 14:07:55,928][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,3;
+[2018-04-02 14:08:55,944][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:08:55,944][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:09:55,947][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:09:55,947][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:10:55,950][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:10:55,950][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:14:17,502][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 14:14:17,503][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 14:15:17,506][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 14:15:17,506][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:16:45,314][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:16:45,314][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:17:45,317][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:17:45,317][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:22:41,829][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 14:22:41,829][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 14:23:41,833][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 14:23:41,833][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:24:41,837][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 14:24:41,837][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 14:25:41,840][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:25:41,840][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:30:21,297][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:2
+[2018-04-02 14:30:21,298][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,2;
+[2018-04-02 14:31:26,563][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:2
+[2018-04-02 14:31:26,567][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,2;
+[2018-04-02 14:34:47,254][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 14:34:47,255][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 14:35:47,258][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 14:35:47,258][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:36:47,261][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 14:36:47,261][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 14:37:47,265][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:37:47,265][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:38:47,268][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:38:47,268][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:39:47,271][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:39:47,271][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:40:47,274][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:40:47,274][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:41:47,277][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:41:47,277][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:42:47,280][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:42:47,280][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:43:47,283][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:43:47,283][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:44:47,286][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:44:47,286][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:45:47,289][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:45:47,289][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:46:47,292][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:46:47,292][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:47:47,295][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:47:47,295][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:48:47,299][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:48:47,300][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:49:47,303][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 14:49:47,303][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 14:50:47,306][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:50:47,306][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:51:47,309][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:51:47,309][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:52:47,312][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:52:47,312][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:53:47,315][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:53:47,315][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:54:47,319][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:54:47,319][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:55:47,327][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:55:47,327][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:56:47,330][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:56:47,330][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:57:47,333][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 14:57:47,333][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 14:58:47,336][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:58:47,336][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 14:59:47,339][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 14:59:47,339][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:00:47,324][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:00:47,324][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:01:47,309][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:01:47,309][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:02:47,294][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:02:47,294][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:03:47,279][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:03:47,279][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:04:47,264][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:04:47,264][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:05:47,261][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:05:47,261][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:06:47,258][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:06:47,259][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:07:47,256][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:07:47,256][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:08:47,253][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:08:47,253][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:09:47,250][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:09:47,251][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:10:47,248][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:10:47,248][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:11:47,245][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:11:47,245][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:12:47,242][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:12:47,242][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:13:47,239][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:13:47,239][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:14:47,236][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:14:47,236][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:15:47,233][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:15:47,233][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:17:07,964][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:3
+[2018-04-02 15:17:07,965][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,3;
+[2018-04-02 15:18:23,324][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:18:23,325][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:20:49,018][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 15:20:49,019][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 15:24:12,894][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 15:24:12,894][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 15:25:12,891][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 15:25:12,891][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:26:12,889][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:26:12,889][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:27:12,886][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:27:12,887][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:28:12,884][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:28:12,884][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:29:12,881][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:29:12,881][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:30:12,878][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:30:12,879][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:31:12,876][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:31:12,876][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:32:12,873][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:32:12,873][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 15:51:30,346][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-02 15:51:30,347][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;
+[2018-04-02 15:52:30,344][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-02 15:52:30,344][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DMS:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:53:30,341][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:53:30,341][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:54:30,338][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:54:30,338][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:55:30,336][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:55:30,336][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:56:30,333][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 15:56:30,333][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 15:57:30,330][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:57:30,330][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:58:30,327][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 15:58:30,327][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 15:59:30,324][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 15:59:30,325][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:00:30,322][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:00:30,322][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:01:30,320][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:01:30,320][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:02:30,317][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:02:30,317][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:03:30,314][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:03:30,314][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:04:30,311][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:04:30,311][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:05:30,308][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:05:30,308][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:06:30,305][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:06:30,305][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:07:30,302][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:07:30,303][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:08:30,310][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:08:30,310][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:09:30,331][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:09:30,331][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:10:30,352][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:10:30,352][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:11:30,374][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:11:30,374][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:12:30,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:12:30,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:13:30,414][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:13:30,414][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:14:30,423][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:14:30,423][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:15:30,432][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:15:30,432][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:16:30,441][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:16:30,441][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:17:30,450][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:17:30,450][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:18:30,456][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:18:30,456][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:19:30,460][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:19:30,460][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:20:30,463][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:20:30,463][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:21:30,466][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:21:30,466][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:22:30,469][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:22:30,469][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:23:30,472][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:23:30,472][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:24:30,475][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:24:30,475][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:25:30,478][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:25:30,478][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:26:30,481][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:26:30,481][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:27:30,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:27:30,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:28:30,487][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:28:30,487][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:29:30,491][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:29:30,491][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:30:30,494][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:30:30,494][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:31:30,497][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:31:30,497][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:32:30,500][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:32:30,500][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:33:30,504][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:33:30,504][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:34:30,507][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:34:30,507][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:35:30,510][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:35:30,510][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:36:30,513][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:36:30,513][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:37:30,516][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:37:30,516][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:38:30,519][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:38:30,532][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:39:30,535][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:39:30,535][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:40:30,538][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:40:30,538][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:41:30,541][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:41:30,541][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:42:30,544][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:42:30,544][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:43:30,547][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:43:30,547][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:44:30,550][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:44:30,550][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:45:30,553][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:45:30,553][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:46:30,556][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:46:30,556][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:47:30,560][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:47:30,561][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:48:30,564][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:48:30,564][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:49:30,568][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:49:30,568][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:50:30,571][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:50:30,571][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:51:30,575][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:51:30,575][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:52:30,578][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:52:30,578][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:53:30,582][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:53:30,582][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:54:30,585][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:54:30,585][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:55:30,588][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 16:55:30,588][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 16:56:30,591][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:56:30,591][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:57:30,594][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:57:30,594][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 16:58:30,597][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 16:58:30,597][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 16:59:30,600][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 16:59:30,600][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:00:30,604][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:00:30,604][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:01:30,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:01:30,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:02:30,610][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:02:30,611][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:03:30,614][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:03:30,614][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:04:30,617][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:04:30,617][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:05:30,620][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:05:30,620][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:06:30,623][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:06:30,623][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:07:30,626][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:07:30,626][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:08:30,630][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:08:30,630][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:09:30,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:09:30,633][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:10:30,636][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:10:30,636][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:11:30,639][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:11:30,639][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:12:30,642][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:12:30,642][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:13:30,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:13:30,645][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:14:30,648][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:14:30,648][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:15:30,651][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:15:30,651][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:16:30,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:16:30,652][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:17:30,637][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:17:30,637][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:18:30,622][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:18:30,622][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:19:30,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:19:30,607][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:20:30,592][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:20:30,592][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:21:30,579][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:21:30,579][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:22:30,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:22:30,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:23:30,574][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:23:30,574][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:24:30,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:24:30,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:25:30,569][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:25:30,570][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:26:30,567][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:26:30,567][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:27:30,564][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:27:30,564][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:28:30,561][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:28:30,561][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:29:30,558][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:29:30,558][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:30:30,555][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:30:30,555][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:31:30,552][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:31:30,552][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:32:30,549][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:32:30,549][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:33:30,546][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:33:30,546][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:34:30,543][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:34:30,543][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:35:30,540][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:35:30,540][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:36:30,537][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:36:30,537][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:37:30,534][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:37:30,534][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:38:30,531][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:38:30,531][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:39:30,529][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:39:30,529][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:40:30,526][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:40:30,526][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:41:30,523][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:41:30,523][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:42:30,520][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:42:30,520][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:43:30,517][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:43:30,517][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:44:30,514][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:44:30,514][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:45:30,511][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:45:30,511][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:46:30,508][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:46:30,508][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:47:30,505][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:47:30,505][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:48:30,502][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:48:30,502][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:49:30,499][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:49:30,499][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:50:30,496][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 17:50:30,496][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 17:51:30,493][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:51:30,493][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:52:30,490][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:52:30,490][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:53:30,487][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:53:30,487][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:54:30,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:54:30,484][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:55:30,481][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:55:30,481][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:56:30,479][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:56:30,479][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:57:30,476][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:57:30,476][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 17:58:30,473][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 17:58:30,473][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 17:59:30,470][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 17:59:30,470][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:00:30,467][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:00:30,467][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:01:30,464][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:01:30,464][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:02:30,461][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:02:30,461][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:03:30,458][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 18:03:30,458][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 18:04:30,455][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:04:30,455][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:05:30,452][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:05:30,452][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:06:30,449][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:06:30,449][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:07:30,446][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:07:30,446][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:08:30,443][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:08:30,443][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:09:30,440][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:09:30,440][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:10:30,437][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:10:30,437][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:11:30,434][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:11:30,434][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:12:30,431][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:12:30,431][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:13:30,428][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:13:30,428][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:14:30,425][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:14:30,425][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:15:30,422][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:15:30,422][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:16:30,419][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 18:16:30,419][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 18:17:30,416][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:17:30,416][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:18:30,413][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:18:30,413][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:19:30,410][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:19:30,410][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:20:30,407][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:20:30,407][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:21:30,404][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:21:30,404][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:22:30,401][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:22:30,401][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:23:30,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:23:30,398][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:24:30,395][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:24:30,395][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:25:30,412][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:25:30,412][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:26:30,439][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:26:30,439][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:27:30,466][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:27:30,466][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:28:30,493][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:28:30,493][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:29:30,520][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:6
+[2018-04-02 18:29:30,520][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,6;
+[2018-04-02 18:30:30,536][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:30:30,536][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:31:30,545][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:31:30,545][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:32:30,554][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:32:30,554][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:33:30,563][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:33:30,563][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:34:30,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:34:30,572][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:35:30,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:35:30,577][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:36:30,580][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:36:30,580][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:37:30,583][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:37:30,583][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;
+[2018-04-02 18:38:30,586][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:38:30,586][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:39:30,589][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:5
+[2018-04-02 18:39:30,589][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,5;
+[2018-04-02 18:40:30,592][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:1, totalQueryCount:4
+[2018-04-02 18:40:30,592][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;

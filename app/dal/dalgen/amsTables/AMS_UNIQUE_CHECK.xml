@@ -1,0 +1,50 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="AMS_UNIQUE_CHECK" physicalName="AMS_UNIQUE_CHECK" remark="AMS_UNIQUE_CHECK">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:AMS_UNIQUE_CHECK">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_UNIQUE_CHECK(
+            UNIQUEID
+            ,CREATE_TIME
+            ,MODIFY_TIME
+        )VALUES(
+             #{uniqueid,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{modifyTime,jdbcType=TIMESTAMP}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:AMS_UNIQUE_CHECK">
+        UPDATE AMS_UNIQUE_CHECK
+        SET
+            CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,MODIFY_TIME     = #{modifyTime,jdbcType=TIMESTAMP}
+        WHERE
+            UNIQUEID        = #{uniqueid,jdbcType=VARCHAR}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:AMS_UNIQUE_CHECK">
+        DELETE FROM
+            AMS_UNIQUE_CHECK
+        WHERE
+            UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:AMS_UNIQUE_CHECK">
+        SELECT *
+        FROM AMS_UNIQUE_CHECK
+        WHERE
+            UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </operation>
+
+    <operation name="getByPrimaryByTest" multiplicity="one" remark="根据主键获取数据:AMS_UNIQUE_CHECK">
+        SELECT *
+        FROM AMS_UNIQUE_CHECK
+        WHERE
+        UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </operation>
+</table>

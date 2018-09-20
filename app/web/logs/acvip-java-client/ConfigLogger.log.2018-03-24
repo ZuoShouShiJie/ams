@@ -1,0 +1,120 @@
+[2018-03-24 10:12:13,379][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 10:12:13,391][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 10:12:13,391][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 10:12:13,391][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 10:12:13,391][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 10:12:13,391][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 10:12:13,392][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 11:29:20,772][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 11:29:20,772][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 11:29:20,772][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 11:29:20,773][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 11:49:45,046][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 11:49:45,047][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 11:49:45,047][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 11:49:45,048][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 11:49:45,048][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 11:49:45,048][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 11:49:45,048][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 11:49:45,048][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 11:49:45,049][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 12:07:45,363][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 12:07:45,363][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 12:07:45,363][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 12:07:45,364][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 12:20:09,154][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 12:20:09,154][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 12:20:09,154][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 12:20:09,155][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 12:41:50,768][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 12:41:50,768][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 12:41:50,769][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 12:41:50,770][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 12:47:46,483][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 12:47:46,484][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 12:47:46,484][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 12:47:46,484][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 12:47:46,484][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 12:47:46,485][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}
+[2018-03-24 12:55:59,012][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.3) configure values:
+[2018-03-24 12:55:59,012][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2018-03-24 12:55:59,012][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\daixiaohu\conf/acvip-java-client-cache\
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - instanceId=6X7QISWPLLCZ
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - endPoint=100.100.0.90
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessKey=iPEpRiVpTYmcQhPCcv
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - accessSecret=1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - version=1.0.3
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2018-03-24 12:55:59,013][INFO][worker-1-thread-2][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}

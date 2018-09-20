@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.UniqueCheckDOMapper">
+    <!-- 自动生成,请修改 AMS_UNIQUE_CHECK.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.UniqueCheckDO">
+        <result column="TRADE_NO" property="tradeNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="MODIFIED_TIME" property="modifiedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        TRADE_NO,CREATE_TIME,MODIFIED_TIME
+    </sql>
+
+
+    <!--插入表:AMS_UNIQUE_CHECK-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_UNIQUE_CHECK(
+            UNIQUEID
+            ,CREATE_TIME
+            ,MODIFY_TIME
+        )VALUES(
+             #{uniqueid,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{modifyTime,jdbcType=TIMESTAMP}
+        )
+    </insert>
+
+    <!--更新表:AMS_UNIQUE_CHECK-->
+    <update id="update" >
+        UPDATE /*MS-AMS-UNIQUE-CHECK-UPDATE*/ AMS_UNIQUE_CHECK
+        SET
+            CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,MODIFY_TIME     = #{modifyTime,jdbcType=TIMESTAMP}
+        WHERE
+            UNIQUEID        = #{uniqueid,jdbcType=VARCHAR}
+    </update>
+
+    <!--根据主键删除数据:AMS_UNIQUE_CHECK-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-AMS-UNIQUE-CHECK-DELETEBYPRIMARY*/ FROM
+            AMS_UNIQUE_CHECK
+        WHERE
+            UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </delete>
+
+    <!--根据主键获取数据:AMS_UNIQUE_CHECK-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-UNIQUE-CHECK-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_UNIQUE_CHECK
+        WHERE
+            UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </select>
+
+    <!--根据主键获取数据:AMS_UNIQUE_CHECK-->
+    <select id="getByPrimaryByTest" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-UNIQUE-CHECK-GETBYPRIMARYBYTEST*/  <include refid="Base_Column_List" />
+        FROM AMS_UNIQUE_CHECK
+        WHERE
+        UNIQUEID = #{uniqueid,jdbcType=VARCHAR}
+    </select>
+</mapper>

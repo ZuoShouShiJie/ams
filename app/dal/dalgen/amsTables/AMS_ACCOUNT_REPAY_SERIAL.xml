@@ -1,0 +1,87 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="AMS_ACCOUNT_REPAY_SERIAL" physicalName="AMS_ACCOUNT_REPAY_SERIAL" remark="AMS_ACCOUNT_REPAY_SERIAL">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:AMS_ACCOUNT_REPAY_SERIAL">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_ACCOUNT_REPAY_SERIAL(
+            ID
+            ,BO_ID
+            ,ORG_ID
+            ,STATUS
+            ,USER_ID
+            ,CREATED_BY
+            ,PERIOD_NUM
+            ,REPAY_TIME
+            ,REPAY_TYPE
+            ,UPDATED_BY
+            ,CREATED_TIME
+            ,REPAY_AMOUNT
+            ,REPAY_STATUS
+            ,UPDATED_TIME
+            ,SERIAL_NUMBER
+            ,CAPITAL_AMOUNT
+            ,INTEREST_AMOUNT
+        )VALUES(
+             #{id,jdbcType=BIGINT}
+            , #{boId,jdbcType=VARCHAR}
+            , #{orgId,jdbcType=BIGINT}
+            , #{status,jdbcType=VARCHAR}
+            , #{userId,jdbcType=VARCHAR}
+            , #{createdBy,jdbcType=VARCHAR}
+            , #{periodNum,jdbcType=VARCHAR}
+            , #{repayTime,jdbcType=TIMESTAMP}
+            , #{repayType,jdbcType=VARCHAR}
+            , #{updatedBy,jdbcType=VARCHAR}
+            , #{createdTime,jdbcType=TIMESTAMP}
+            , #{repayAmount,jdbcType=DECIMAL}
+            , #{repayStatus,jdbcType=VARCHAR}
+            , #{updatedTime,jdbcType=TIMESTAMP}
+            , #{serialNumber,jdbcType=VARCHAR}
+            , #{capitalAmount,jdbcType=DECIMAL}
+            , #{interestAmount,jdbcType=DECIMAL}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:AMS_ACCOUNT_REPAY_SERIAL">
+        UPDATE AMS_ACCOUNT_REPAY_SERIAL
+        SET
+            BO_ID           = #{boId,jdbcType=VARCHAR}
+            ,STATUS          = #{status,jdbcType=VARCHAR}
+            ,USER_ID         = #{userId,jdbcType=VARCHAR}
+            ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+            ,PERIOD_NUM      = #{periodNum,jdbcType=VARCHAR}
+            ,REPAY_TIME      = #{repayTime,jdbcType=TIMESTAMP}
+            ,REPAY_TYPE      = #{repayType,jdbcType=VARCHAR}
+            ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+            ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+            ,REPAY_AMOUNT    = #{repayAmount,jdbcType=DECIMAL}
+            ,REPAY_STATUS    = #{repayStatus,jdbcType=VARCHAR}
+            ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+            ,SERIAL_NUMBER   = #{serialNumber,jdbcType=VARCHAR}
+            ,CAPITAL_AMOUNT  = #{capitalAmount,jdbcType=DECIMAL}
+            ,INTEREST_AMOUNT = #{interestAmount,jdbcType=DECIMAL}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+            AND ORG_ID          = #{orgId,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:AMS_ACCOUNT_REPAY_SERIAL">
+        DELETE FROM
+            AMS_ACCOUNT_REPAY_SERIAL
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:AMS_ACCOUNT_REPAY_SERIAL">
+        SELECT *
+        FROM AMS_ACCOUNT_REPAY_SERIAL
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </operation>
+</table>

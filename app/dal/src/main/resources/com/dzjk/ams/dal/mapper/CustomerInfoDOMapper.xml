@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.CustomerInfoDOMapper">
+    <!-- 自动生成,请修改 AMS_CUSTOMER_INFO.xml -->
+    <resultMap id="BaseResultMap" type="com.dzjk.ams.dal.dataobject.CustomerInfoDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="ID_NO" property="idNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMAIL" property="email" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ORG_ID" property="orgId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="CARD_NO" property="cardNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="DEGREE" property="degree" jdbcType="VARCHAR" javaType="String"/>
+        <result column="GENDER" property="gender" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ID_TYPE" property="idType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MOBILE" property="mobile" jdbcType="VARCHAR" javaType="String"/>
+        <result column="STATUS" property="status" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_ID" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_CITY" property="empCity" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_NAME" property="empName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_TYPE" property="empType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_ZONE" property="empZone" jdbcType="VARCHAR" javaType="String"/>
+        <result column="BANK_CODE" property="bankCode" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_PHONE" property="empPhone" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_TITLE" property="empTitle" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_NAME" property="userName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="HOME_PHONE" property="homePhone" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CON_ADDRESS" property="conAddress" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CON_ZIPCODE" property="conZipcode" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_ADDRESS" property="empAddress" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CHILD_STATUS" property="childStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CONTACT_NAME" property="contactName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="EMP_PROVINCE" property="empProvince" jdbcType="VARCHAR" javaType="String"/>
+        <result column="HOME_ADDRESS" property="homeAddress" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ORG_AUTH_TYPE" property="orgAuthType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="YEARS_OF_WORK" property="yearsOfWork" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_POSTITION" property="empPostition" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EMP_STRUCTURE" property="empStructure" jdbcType="VARCHAR" javaType="String"/>
+        <result column="GRADUATE_INST" property="graduateInst" jdbcType="VARCHAR" javaType="String"/>
+        <result column="GRADUATE_YEAR" property="graduateYear" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CONTACT_MOBILE" property="contactMobile" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MARITAL_STATUS" property="maritalStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="QUALIFICATION" property="qualification" jdbcType="VARCHAR" javaType="String"/>
+        <result column="HOUSE_CONDITION" property="houseCondition" jdbcType="VARCHAR" javaType="String"/>
+        <result column="SOCAIL_IDENTITY" property="socailIdentity" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CONTACT_RELATION" property="contactRelation" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,ID_NO,EMAIL,ORG_ID,CARD_NO,DEGREE,GENDER,ID_TYPE,MOBILE,STATUS,USER_ID,EMP_CITY,EMP_NAME,EMP_TYPE,EMP_ZONE,BANK_CODE,EMP_PHONE,EMP_TITLE,USER_NAME,CREATED_BY,HOME_PHONE,UPDATED_BY,CON_ADDRESS,CON_ZIPCODE,EMP_ADDRESS,CHILD_STATUS,CONTACT_NAME,CREATED_TIME,EMP_PROVINCE,HOME_ADDRESS,ORG_AUTH_TYPE,UPDATED_TIME,YEARS_OF_WORK,EMP_POSTITION,EMP_STRUCTURE,GRADUATE_INST,GRADUATE_YEAR,CONTACT_MOBILE,MARITAL_STATUS,QUALIFICATION,HOUSE_CONDITION,SOCAIL_IDENTITY,CONTACT_RELATION
+    </sql>
+
+
+    <!--插入表:AMS_CUSTOMER_INFO-->
+    <insert id="insert">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_CUSTOMER_INFO(
+        ID
+        ,ID_NO
+        ,EMAIL
+        ,ORG_ID
+        ,CARD_NO
+        ,DEGREE
+        ,GENDER
+        ,ID_TYPE
+        ,MOBILE
+        ,STATUS
+        ,USER_ID
+        ,EMP_CITY
+        ,EMP_NAME
+        ,EMP_TYPE
+        ,EMP_ZONE
+        ,BANK_CODE
+        ,EMP_PHONE
+        ,EMP_TITLE
+        ,USER_NAME
+        ,CREATED_BY
+        ,HOME_PHONE
+        ,UPDATED_BY
+        ,CON_ADDRESS
+        ,CON_ZIPCODE
+        ,EMP_ADDRESS
+        ,CHILD_STATUS
+        ,CONTACT_NAME
+        ,CREATED_TIME
+        ,EMP_PROVINCE
+        ,HOME_ADDRESS
+        ,ORG_AUTH_TYPE
+        ,UPDATED_TIME
+        ,YEARS_OF_WORK
+        ,EMP_POSTITION
+        ,EMP_STRUCTURE
+        ,GRADUATE_INST
+        ,GRADUATE_YEAR
+        ,CONTACT_MOBILE
+        ,MARITAL_STATUS
+        ,QUALIFICATION
+        ,HOUSE_CONDITION
+        ,SOCAIL_IDENTITY
+        ,CONTACT_RELATION
+        )VALUES(
+        #{id,jdbcType=BIGINT}
+        , #{idNo,jdbcType=VARCHAR}
+        , #{email,jdbcType=VARCHAR}
+        , #{orgId,jdbcType=BIGINT}
+        , #{cardNo,jdbcType=VARCHAR}
+        , #{degree,jdbcType=VARCHAR}
+        , #{gender,jdbcType=VARCHAR}
+        , #{idType,jdbcType=VARCHAR}
+        , #{mobile,jdbcType=VARCHAR}
+        , #{status,jdbcType=VARCHAR}
+        , #{userId,jdbcType=VARCHAR}
+        , #{empCity,jdbcType=VARCHAR}
+        , #{empName,jdbcType=VARCHAR}
+        , #{empType,jdbcType=VARCHAR}
+        , #{empZone,jdbcType=VARCHAR}
+        , #{bankCode,jdbcType=VARCHAR}
+        , #{empPhone,jdbcType=VARCHAR}
+        , #{empTitle,jdbcType=VARCHAR}
+        , #{userName,jdbcType=VARCHAR}
+        , #{createdBy,jdbcType=VARCHAR}
+        , #{homePhone,jdbcType=VARCHAR}
+        , #{updatedBy,jdbcType=VARCHAR}
+        , #{conAddress,jdbcType=VARCHAR}
+        , #{conZipcode,jdbcType=VARCHAR}
+        , #{empAddress,jdbcType=VARCHAR}
+        , #{childStatus,jdbcType=VARCHAR}
+        , #{contactName,jdbcType=VARCHAR}
+        , #{createdTime,jdbcType=TIMESTAMP}
+        , #{empProvince,jdbcType=VARCHAR}
+        , #{homeAddress,jdbcType=VARCHAR}
+        , #{orgAuthType,jdbcType=VARCHAR}
+        , #{updatedTime,jdbcType=TIMESTAMP}
+        , #{yearsOfWork,jdbcType=VARCHAR}
+        , #{empPostition,jdbcType=VARCHAR}
+        , #{empStructure,jdbcType=VARCHAR}
+        , #{graduateInst,jdbcType=VARCHAR}
+        , #{graduateYear,jdbcType=VARCHAR}
+        , #{contactMobile,jdbcType=VARCHAR}
+        , #{maritalStatus,jdbcType=VARCHAR}
+        , #{qualification,jdbcType=VARCHAR}
+        , #{houseCondition,jdbcType=VARCHAR}
+        , #{socailIdentity,jdbcType=VARCHAR}
+        , #{contactRelation,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:AMS_CUSTOMER_INFO-->
+    <update id="update">
+        UPDATE /*MS-AMS-CUSTOMER-INFO-UPDATE*/ AMS_CUSTOMER_INFO
+        SET
+            ID_NO           = #{idNo,jdbcType=VARCHAR}
+            ,EMAIL           = #{email,jdbcType=VARCHAR}
+            ,CARD_NO         = #{cardNo,jdbcType=VARCHAR}
+            ,DEGREE          = #{degree,jdbcType=VARCHAR}
+            ,GENDER          = #{gender,jdbcType=VARCHAR}
+            ,ID_TYPE         = #{idType,jdbcType=VARCHAR}
+            ,MOBILE          = #{mobile,jdbcType=VARCHAR}
+            ,STATUS          = #{status,jdbcType=VARCHAR}
+            ,USER_ID         = #{userId,jdbcType=VARCHAR}
+            ,EMP_CITY        = #{empCity,jdbcType=VARCHAR}
+            ,EMP_NAME        = #{empName,jdbcType=VARCHAR}
+            ,EMP_TYPE        = #{empType,jdbcType=VARCHAR}
+            ,EMP_ZONE        = #{empZone,jdbcType=VARCHAR}
+            ,BANK_CODE       = #{bankCode,jdbcType=VARCHAR}
+            ,EMP_PHONE       = #{empPhone,jdbcType=VARCHAR}
+            ,EMP_TITLE       = #{empTitle,jdbcType=VARCHAR}
+            ,USER_NAME       = #{userName,jdbcType=VARCHAR}
+            ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+            ,HOME_PHONE      = #{homePhone,jdbcType=VARCHAR}
+            ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+            ,CON_ADDRESS     = #{conAddress,jdbcType=VARCHAR}
+            ,CON_ZIPCODE     = #{conZipcode,jdbcType=VARCHAR}
+            ,EMP_ADDRESS     = #{empAddress,jdbcType=VARCHAR}
+            ,CHILD_STATUS    = #{childStatus,jdbcType=VARCHAR}
+            ,CONTACT_NAME    = #{contactName,jdbcType=VARCHAR}
+            ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+            ,EMP_PROVINCE    = #{empProvince,jdbcType=VARCHAR}
+            ,HOME_ADDRESS    = #{homeAddress,jdbcType=VARCHAR}
+            ,ORG_AUTH_TYPE   = #{orgAuthType,jdbcType=VARCHAR}
+            ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+            ,YEARS_OF_WORK   = #{yearsOfWork,jdbcType=VARCHAR}
+            ,EMP_POSTITION   = #{empPostition,jdbcType=VARCHAR}
+            ,EMP_STRUCTURE   = #{empStructure,jdbcType=VARCHAR}
+            ,GRADUATE_INST   = #{graduateInst,jdbcType=VARCHAR}
+            ,GRADUATE_YEAR   = #{graduateYear,jdbcType=VARCHAR}
+            ,CONTACT_MOBILE  = #{contactMobile,jdbcType=VARCHAR}
+            ,MARITAL_STATUS  = #{maritalStatus,jdbcType=VARCHAR}
+            ,QUALIFICATION   = #{qualification,jdbcType=VARCHAR}
+            ,HOUSE_CONDITION = #{houseCondition,jdbcType=VARCHAR}
+            ,SOCAIL_IDENTITY = #{socailIdentity,jdbcType=VARCHAR}
+            ,CONTACT_RELATION = #{contactRelation,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+            AND ORG_ID          = #{orgId,jdbcType=BIGINT}
+    </update>
+
+    <!--根据主键删除数据:AMS_CUSTOMER_INFO-->
+    <delete id="deleteByPrimary">
+        DELETE /*MS-AMS-CUSTOMER-INFO-DELETEBYPRIMARY*/ FROM
+            AMS_CUSTOMER_INFO
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </delete>
+
+    <!--根据主键获取数据:AMS_CUSTOMER_INFO-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-CUSTOMER-INFO-GETBYPRIMARY*/
+        <include refid="Base_Column_List"/>
+        FROM AMS_CUSTOMER_INFO
+        WHERE
+        ID = #{id,jdbcType=BIGINT}
+        AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </select>
+
+    <!--获取AMS_CUSTOMER_INFO-->
+    <select id="queryCustomerInfo" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-CUSTOMER-INFO-QUERYCUSTOMERINFO*/
+        <include refid="Base_Column_List"/>
+        FROM AMS_CUSTOMER_INFO
+        WHERE 1=1
+        <if test="userName!='' and userName != null">
+            AND USER_NAME = #{userName,jdbcType=VARCHAR}
+        </if>
+        <if test="idType!='' and idType != null">
+            AND ID_TYPE = #{idType,jdbcType=VARCHAR}
+        </if>
+        <if test="idNo!='' and idNo != null">
+            AND ID_NO = #{idNo,jdbcType=VARCHAR}
+        </if>
+    </select>
+
+    <!---->
+    <select id="queryCustomerInfoByUserId" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-CUSTOMER-INFO-QUERYCUSTOMERINFOBYUSERID*/
+        <include refid="Base_Column_List"/>
+        FROM AMS_CUSTOMER_INFO
+        WHERE status=1
+        <if test="userId!='' and userId != null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+    </select>
+
+    <select id="queryCustomerInfoByIdNo" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-CUSTOMER-INFO-QUERYCUSTOMERINFO*/
+        <include refid="Base_Column_List"/>
+        FROM AMS_CUSTOMER_INFO
+        WHERE status=1
+        <if test="idType!='' and idType != null">
+            AND ID_TYPE = #{idType,jdbcType=VARCHAR}
+        </if>
+        <if test="idNo!='' and idNo != null">
+            AND ID_NO = #{idNo,jdbcType=VARCHAR}
+        </if>
+    </select>
+    <update id="updateUserInfo">
+        UPDATE  AMS_CUSTOMER_INFO
+        SET
+        USER_NAME  = #{userName,jdbcType=VARCHAR}
+        ,MOBILE  = #{mobile,jdbcType=VARCHAR}
+        ,UPDATED_TIME = #{updatedTime,jdbcType=TIMESTAMP}
+        WHERE status=1
+       and USER_ID  = #{userId,jdbcType=VARCHAR}
+    </update>
+
+</mapper>

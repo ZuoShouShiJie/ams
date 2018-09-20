@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.AccountEarningsDOMapper">
+    <!-- 自动生成,请修改 AMS_ACCOUNT_EARNINGS.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.AccountEarningsExDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="BO_ID" property="boId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ORG_ID" property="orgId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="STATUS" property="status" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_ID" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="BO_USER_ID" property="boUserId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="IS_FULL_FEE" property="isFullFee" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PERIOD_NUM" property="periodNum" jdbcType="VARCHAR" javaType="String"/>
+        <result column="REPAY_DATE" property="repayDate" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="OVERDUE_DAY" property="overdueDay" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_STATUS" property="repayStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="SERVICE_FEE_ID" property="serviceFeeId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CAPITAL_AMOUNT" property="capitalAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="PUNISH_FEE_ACCU" property="punishFeeAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="REAL_REPAY_DATE" property="realRepayDate" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="INTEREST_AMOUNT" property="interestAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="SERVICE_FEE_ACCU" property="serviceFeeAccu" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="PUNISH_UPDATED_TIME" property="punishUpdatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="MERCHANT_SERVICE_FEE" property="merchantServiceFee" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,BO_ID,ORG_ID,STATUS,USER_ID,BO_USER_ID,CREATED_BY,IS_FULL_FEE,PERIOD_NUM,REPAY_DATE,UPDATED_BY,OVERDUE_DAY,CREATED_TIME,REPAY_STATUS,UPDATED_TIME,SERVICE_FEE_ID,CAPITAL_AMOUNT,PUNISH_FEE_ACCU,REAL_REPAY_DATE,INTEREST_AMOUNT,SERVICE_FEE_ACCU,PUNISH_UPDATED_TIME,MERCHANT_SERVICE_FEE
+    </sql>
+
+
+    <!--插入表:AMS_ACCOUNT_EARNINGS-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_ACCOUNT_EARNINGS(
+            ID
+            ,BO_ID
+            ,ORG_ID
+            ,STATUS
+            ,BO_USER_ID
+            ,USER_ID
+            ,CREATED_BY
+            ,IS_FULL_FEE
+            ,PERIOD_NUM
+            ,REPAY_DATE
+            ,UPDATED_BY
+            ,OVERDUE_DAY
+            ,CREATED_TIME
+            ,REPAY_STATUS
+            ,UPDATED_TIME
+            ,SERVICE_FEE_ID
+            ,CAPITAL_AMOUNT
+            ,PUNISH_FEE_ACCU
+            ,REAL_REPAY_DATE
+            ,INTEREST_AMOUNT
+            ,SERVICE_FEE_ACCU
+            ,PUNISH_UPDATED_TIME
+            ,MERCHANT_SERVICE_FEE
+        )VALUES(
+             #{id,jdbcType=INTEGER}
+            , #{boId,jdbcType=VARCHAR}
+            , #{orgId,jdbcType=BIGINT}
+            , #{status,jdbcType=VARCHAR}
+            , #{boUserId,jdbcType=VARCHAR}
+            , #{userId,jdbcType=VARCHAR}
+            , #{createdBy,jdbcType=VARCHAR}
+            , #{isFullFee,jdbcType=VARCHAR}
+            , #{periodNum,jdbcType=VARCHAR}
+            , #{repayDate,jdbcType=DATE}
+            , #{updatedBy,jdbcType=VARCHAR}
+            , #{overdueDay,jdbcType=VARCHAR}
+            , #{createdTime,jdbcType=TIMESTAMP}
+            , #{repayStatus,jdbcType=VARCHAR}
+            , #{updatedTime,jdbcType=TIMESTAMP}
+            , #{serviceFeeId,jdbcType=VARCHAR}
+            , #{capitalAmount,jdbcType=DECIMAL}
+            , #{punishFeeAccu,jdbcType=DECIMAL}
+            , #{realRepayDate,jdbcType=DATE}
+            , #{interestAmount,jdbcType=DECIMAL}
+            , #{serviceFeeAccu,jdbcType=DECIMAL}
+            , #{punishUpdatedTime,jdbcType=TIMESTAMP}
+            , #{merchantServiceFee,jdbcType=DECIMAL}
+        )
+    </insert>
+
+    <!--更新表:AMS_ACCOUNT_EARNINGS-->
+    <update id="update" >
+        UPDATE /*MS-AMS-ACCOUNT-EARNINGS-UPDATE*/ AMS_ACCOUNT_EARNINGS
+        SET
+            BO_ID           = #{boId,jdbcType=VARCHAR}
+            ,STATUS          = #{status,jdbcType=VARCHAR}
+            ,BO_USER_ID      = #{boUserId,jdbcType=VARCHAR}
+            ,USER_ID      = #{userId,jdbcType=VARCHAR}
+            ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+            ,IS_FULL_FEE     = #{isFullFee,jdbcType=VARCHAR}
+            ,PERIOD_NUM      = #{periodNum,jdbcType=VARCHAR}
+            ,REPAY_DATE      = #{repayDate,jdbcType=DATE}
+            ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+            ,OVERDUE_DAY     = #{overdueDay,jdbcType=VARCHAR}
+            ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+            ,REPAY_STATUS    = #{repayStatus,jdbcType=VARCHAR}
+            ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+            ,SERVICE_FEE_ID  = #{serviceFeeId,jdbcType=VARCHAR}
+            ,CAPITAL_AMOUNT  = #{capitalAmount,jdbcType=DECIMAL}
+            ,PUNISH_FEE_ACCU = #{punishFeeAccu,jdbcType=DECIMAL}
+            ,REAL_REPAY_DATE = #{realRepayDate,jdbcType=DATE}
+            ,INTEREST_AMOUNT = #{interestAmount,jdbcType=DECIMAL}
+            ,SERVICE_FEE_ACCU = #{serviceFeeAccu,jdbcType=DECIMAL}
+            ,PUNISH_UPDATED_TIME = #{punishUpdatedTime,jdbcType=TIMESTAMP}
+            ,MERCHANT_SERVICE_FEE = #{merchantServiceFee,jdbcType=DECIMAL}
+        WHERE
+            ID              = #{id,jdbcType=INTEGER}
+            AND ORG_ID          = #{orgId,jdbcType=BIGINT}
+    </update>
+
+    <!--根据主键删除数据:AMS_ACCOUNT_EARNINGS-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-AMS-ACCOUNT-EARNINGS-DELETEBYPRIMARY*/ FROM
+            AMS_ACCOUNT_EARNINGS
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </delete>
+
+    <!--根据主键获取数据:AMS_ACCOUNT_EARNINGS-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-EARNINGS-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_EARNINGS
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </select>
+
+    <!--根据userId和借款编号查询-->
+    <select id="queryPlatEarnings" resultMap="BaseResultMap">
+        SELECT *
+        FROM AMS_ACCOUNT_EARNINGS
+        WHERE status=1
+        <if test="orgId !='' and orgId!=null">
+            and ORG_ID=#{orgId,jdbcType=BIGINT}
+        </if>
+        <if test="userId !='' and userId != null">
+            and USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId != null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="startDate !=null">
+            AND created_time &gt;= #{startDate,jdbcType=TIMESTAMP}
+        </if>
+        <if test="endDate !=null">
+            AND created_time &lt;= #{endDate,jdbcType=TIMESTAMP}
+        </if>
+        limit #{startRow},#{limit}
+    </select>
+
+    <!--总条数-->
+    <select id="queryEarningsCount" resultType="java.lang.Integer">
+        SELECT /*MS-AMS-ACCOUNT-EARNINGS-QUERYEARNINGSCOUNT*/  count(*)
+        FROM AMS_ACCOUNT_EARNINGS
+        WHERE status=1
+        <if test="orgId !='' and orgId!=null">
+            and ORG_ID=#{orgId,jdbcType=BIGINT}
+        </if>
+        <if test="userId !='' and userId != null">
+            and USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId != null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="startDate !=null">
+            AND created_time &gt;= #{startDate,jdbcType=TIMESTAMP}
+        </if>
+        <if test="endDate !=null">
+            AND created_time &lt;= #{endDate,jdbcType=TIMESTAMP}
+        </if>
+    </select>
+
+    <select id="queryRepayStatus" resultMap="BaseResultMap" parameterType="object">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-PLAN-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_EARNINGS
+        WHERE status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </select>
+
+    <update id="updateStatus"  parameterType="object">
+        UPDATE AMS_ACCOUNT_EARNINGS SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+    <update id="updatePlanInfo"  parameterType="object">
+        UPDATE AMS_ACCOUNT_EARNINGS SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        ,updated_time= #{updatedTime,jdbcType=TIMESTAMP}
+        ,real_repay_date=#{realRepayDate,jdbcType=DATE}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+    <update id="updatePlanFail"  parameterType="object">
+        UPDATE AMS_ACCOUNT_EARNINGS SET
+        repay_status = #{repayStatus,jdbcType=VARCHAR}
+        ,updated_time= #{updatedTime,jdbcType=TIMESTAMP}
+        ,OVERDUE_DAY=#{overdueDay,jdbcType=VARCHAR}
+        WHERE  status=1
+        <if test="userId !='' and userId !=null">
+            AND USER_ID = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="boId !='' and boId !=null">
+            AND BO_ID = #{boId,jdbcType=VARCHAR}
+        </if>
+        <if test="orgId !='' and orgId !=null">
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+        </if>
+        <if test="periodNum !='' and periodNum !=null">
+            AND period_num = #{periodNum,jdbcType=INTEGER}
+        </if>
+    </update>
+
+</mapper>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.notify:notify-utils:2.1.5.dms">
+    <CLASSES>
+      <root url="jar://E:/work/repo/com/taobao/notify/notify-utils/2.1.5.dms/notify-utils-2.1.5.dms.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/work/repo/com/taobao/notify/notify-utils/2.1.5.dms/notify-utils-2.1.5.dms-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/work/repo/com/taobao/notify/notify-utils/2.1.5.dms/notify-utils-2.1.5.dms-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,2 @@
+2018-08-23 14:40:01,138 INFO  - [Unregister] Publisher unregister for dataId=com.dzjk.ams.facade.api.account.AccountApiFacade:1.0@DEFAULT clientId=SofaProvider-com.dzjk.ams.facade.api.account.AccountApiFacade:1.0@DEFAULT.1
+2018-08-23 14:40:01,140 INFO  - [Unregister] Publisher unregister for dataId=com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT clientId=SofaProvider-com.dzjk.ams.facade.api.account.AccountRestFacade:1.0@DEFAULT.1

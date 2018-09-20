@@ -1,0 +1,40 @@
+2018-06-05 17:37:38.626 - INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-06-05 17:37:38.643 - INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-06-05 17:37:38.643 - INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-06-05 17:37:38.643 - INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-06-05 17:37:38.643 - INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-06-05 17:37:38.649 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-06-05 17:37:38.691 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-06-05 17:37:38.850 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-06-05 17:37:38.945 - INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-06-05 17:37:39.340 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-06-05 17:37:45.812 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-06-05 17:38:16.437 - INFO  c.a.c.e.t.adapter.EventSendFacadeTBNotifyImpl - The checkMessageListener is not set, the name of Publisher is [null]
+2018-06-05 17:38:16.658 - INFO  c.t.n.remoting.service.impl.BaseRemotingController - Start RemotingController with the following configuration
+BaseConfig [callBackExecutorPoolSize=3, callBackExecutorQueueSize=20000, dispatchMessageThreadCount=0, idleTime=10, keepAlive=true, linger=0, maxCallBackCountPerConnection=100000, maxCallBackExecutorPoolSize=30, maxReadBufferSize=0, maxScheduleWrittenBytes=184025088, rcvBufferSize=65536, readBufferSize=32768, readThreadCount=0, reuseAddr=true, scanInvalidCallBackInterval=300, selectorPoolSize=5, sndBufferSize=65536, soLinger=true, tcpNoDelay=true, wireFormatType=NOTIFY_V1, writeThreadCount=0]
+2018-06-05 17:38:16.697 - INFO  c.t.notify.remoting.core.nio.impl.SelectorManager - Creating 5 rectors...
+2018-06-05 17:38:16.774 - INFO  com.taobao.notify.client.NotifyClientFactory - Create NotifyClient for the brokerAddressConfig [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}]
+2018-06-05 17:38:16.852 - INFO  com.taobao.notify.client.impl.DefaultNotifyClient - [com.taobao.notify.client.impl.DefaultNotifyClient]
+Bindings [groupId [^6X7QISWPLLCZ$P_ams_mq] ]
+2018-06-05 17:38:16.854 - INFO  c.taobao.notify.brokeraddress.BrokerAddressManager - Create a antvip broker address listener, topic [NS_Pub_Servers_^6X7QISWPLLCZ$TP_AMS] brokerAddressConfig [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}]
+2018-06-05 17:38:16.856 - INFO  c.t.n.brokeraddress.BrokerAddressListenerAbstract - Initialize the AntVip Client, config [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}]
+2018-06-05 17:38:50.434 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-06-05 17:38:50.498 - INFO  c.t.n.brokeraddress.BrokerAddressListenerAbstract - [AntVipBasedBrokerAddressListener] has been initialized, ignore start process. config [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}] topics [[NS_Pub_Servers_^6X7QISWPLLCZ$TP_AMS]]
+2018-06-05 17:38:50.498 - INFO  c.t.notify.remotingservice.DefaultRemotingService - [com.taobao.notify.remotingservice.DefaultRemotingService]
+Broker Address Manager: Size of the Broker Address Listeners is 1
+2018-06-05 17:38:50.498 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+serverUrlResponsitory size is:0
+2018-06-05 17:38:50.498 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+serverUrlResponsitory is:{}
+2018-06-05 17:38:50.498 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+serverUrlResponsitory AllUrls are:[]
+2018-06-05 17:38:50.498 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+controlInfoResponsitory size is:0
+2018-06-05 17:38:50.499 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+controlInfoResponsitory is:{}
+2018-06-05 17:38:50.499 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+groupOfTopics is:{NS_Pub_Servers_^6X7QISWPLLCZ$TP_AMS=[^6X7QISWPLLCZ$P_ams_mq]}
+2018-06-05 17:38:50.499 - INFO  c.t.n.remotingservice.responsitory.NewUrlManager - [com.taobao.notify.remotingservice.responsitory.NewUrlManager]
+all urls: null
+2018-06-05 17:38:54.368 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.scheduler Logback ]
+2018-06-05 17:38:54.420 - INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.remoting Logback ]

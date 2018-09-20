@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: ams
+  #set_color
+  output:
+      ansi:
+        enabled: ALWAYS
+
+#set_logging_level
+logging:
+  level: DEBUG
+
+#used for change default port 8080 to 80
+server:
+  port: 8080
+
+logging:
+  path: ../../logs
+
+# RPC route mode
+# In DEV mode, RPC only looks for services on local machine
+# In TEST mode, RPC looks for test-url first, then try soft balancing
+# In NORMAL mode, use soft balancing supported by config server
+run:
+  mode: DEV
+
+com:
+  test: com.test
+  dzjk: com.dzjk
+
+# database configuration
+ams:
+  jdbc:
+    url: jdbc\:mysql\://rm-zm0e5tm6z63ly5vdxuo.mysql.rds.aliyuncs.com\:3306/dzjk_ams?useSSL\=false&useUnicode\=true&characterEncoding\=UTF-8
+    username: dbadmin
+    passwd: maiziJF2017
+    driverClassName: com.mysql.jdbc.Driver
+  druid:
+        filters: stat
+  testWhileIdle: false
+  minIdle: 10
+  removeAbandoned: true
+  maxActive: 10
+  testOnBorrow: true
+  maxIdle: 8
+  testOnReturn: false
+  poolPreparedStatements: true
+  minEvictableIdleTimeMillis: 60000
+  validationQuery: select 1 from dual
+  removeAbandonedTimeout: 60
+  initialSize: 9
+  defaultAutoCommit: true
+  logAbandoned: false
+  timeBetweenEvictionRunsMillis: 300000
+  maxOpenPreparedStatements: 1000

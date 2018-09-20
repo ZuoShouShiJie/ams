@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ams-core" />
+        <module name="ams-dal" />
+        <module name="ams-endpoint" />
+        <module name="ams-facade" />
+        <module name="ams-test" />
+        <module name="ams-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ams-core" target="1.7" />
+      <module name="ams-dal" target="1.7" />
+      <module name="ams-endpoint" target="1.7" />
+      <module name="ams-facade" target="1.7" />
+      <module name="ams-parent" target="1.7" />
+      <module name="ams-test" target="1.7" />
+      <module name="ams-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

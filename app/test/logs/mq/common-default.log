@@ -1,0 +1,9 @@
+2018-08-23 14:37:55,247 INFO  main                             - mq-spring-boot-starter is starting.
+2018-08-23 14:38:32,762 INFO  main                             - MQ Mode, [com.alipay.env] value [shared]
+2018-08-23 14:38:32,762 INFO  main                             - Broker Address Mode [AntVIP], antVipEndpoint [100.100.0.90], instanceId [6X7QISWPLLCZ]
+2018-08-23 14:38:32,765 INFO  main                             - BrokerAddressConfig [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}]
+2018-08-23 14:39:32,872 INFO  main                             - MQ Mode, [com.alipay.env] value [shared]
+2018-08-23 14:39:32,873 INFO  main                             - Broker Address Mode [AntVIP], antVipEndpoint [100.100.0.90], instanceId [6X7QISWPLLCZ]
+2018-08-23 14:39:32,873 INFO  main                             - BrokerAddressConfig [BrokerAddressConfig{appName='ams', brokerAddressLookupPolicy=[BrokerAddressLookupPolicy [name=AntVip desc=Ant VIP server based broker address]], testBrokerServers=null, instanceId='6X7QISWPLLCZ', datacenter='', antVipEndpoint='100.100.0.90', productName='DMS'}]
+2018-08-23 14:39:36,735 INFO  main                             - Initialize the UniformEventSubscriber with the lazy strategy.
+2018-08-23 14:40:00,816 INFO  main                             - Initialize the UniformEventSubscriber, groupId [[^6X7QISWPLLCZ$S_ams_mq]

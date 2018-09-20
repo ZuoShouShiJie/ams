@@ -1,0 +1,4 @@
+[2018-04-04 18:11:03,292][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:3, totalQueryCount:5
+[2018-04-04 18:11:03,298][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-ANTSCHEDULER_CLOUD:0,0,1;6X7QISWPLLCZ-DSR_CLOUD:0,0,3;6X7QISWPLLCZ-DMS:0,0,1;
+[2018-04-04 18:12:03,301][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [summary] totalQueryDomains:2, totalQueryCount:5
+[2018-04-04 18:12:03,301][INFO][AntVip-ApiStatisticsThread][c.a.a.c.i.l.ApiStatisticsLogger] - [detail] 6X7QISWPLLCZ-DSR_CLOUD:0,0,4;6X7QISWPLLCZ-DMS:0,0,1;

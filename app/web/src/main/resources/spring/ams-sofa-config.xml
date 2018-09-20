@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sofa="http://schema.alipay.com/sofa/schema/slite"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://schema.alipay.com/sofa/schema/slite   http://schema.alipay.com/sofa/slite.xsd"
+       default-autowire="byName">
+
+    <!-- 声明服务的实现对象
+        <bean id="sampleRestFacadeRest" class="com.test.endpoint.impl.SampleRestFacadeRestImpl"/>
+    -->
+    <!-- Publish tr service -->
+   <!-- <sofa:service interface="com.dzjk.ams.facade.api.SampleRestFacade" ref="sampleRestFacadeRest">
+        &lt;!&ndash;<sofa:binding.tr>
+            &lt;!&ndash; 如果配置了 method ，优先使用 method 配置 &ndash;&gt;
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>&ndash;&gt;
+    </sofa:service>
+
+    &lt;!&ndash; Publish tr service &ndash;&gt;
+    <sofa:service interface="com.dzjk.ams.facade.api.DzjkRestFacade" ref="dzjkRestFacade">
+        &lt;!&ndash;<sofa:binding.tr>
+            &lt;!&ndash; 如果配置了 method ，优先使用 method 配置 &ndash;&gt;
+            <sofa:method name="service" timeout="5000" />
+        </sofa:binding.tr>&ndash;&gt;
+    </sofa:service>-->
+
+</beans>

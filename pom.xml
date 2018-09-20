@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.dzjk.chain</groupId>
+        <artifactId>dzjk-dependents</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <groupId>com.dzjk.ams</groupId>
+    <artifactId>ams-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>ams</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <java.version>1.7</java.version>
+        <druid.version>1.0.9</druid.version>
+        <mybatis-spring.version>1.2.3</mybatis-spring.version>
+        <mybatis.version>3.3.0</mybatis.version>
+        <jedis.version>2.7.2</jedis.version>
+        <product.version>1.0.0-SNAPSHOT</product.version>
+        <framework-core.version>1.0.0</framework-core.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+                <version>3.5.1</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <includes>
+                        <include>**/*Tests.java</include>
+                        <include>**/*Test.java</include>
+                    </includes>
+                    <excludes>
+                        <exclude>**/Abstract*.java</exclude>
+                    </excludes>
+                    <!-- 解决控制台中文乱码解决 -->
+                    <forkMode>once</forkMode>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <skipSource>true</skipSource>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.dzjk.product</groupId>
+                <artifactId>product-facade</artifactId>
+                <version>${product.version}</version>
+            </dependency>
+
+
+            <!-- 内部依赖-->
+            <dependency>
+                <groupId>com.dzjk.ams</groupId>
+                <artifactId>ams-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dzjk.ams</groupId>
+                <artifactId>ams-endpoint</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dzjk.ams</groupId>
+                <artifactId>ams-facade</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dzjk.ams</groupId>
+                <artifactId>ams-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.climb.framework</groupId>
+                <artifactId>framework-core</artifactId>
+                <version>${framework-core.version}</version>
+            </dependency>
+
+            <!--oss所需要jar包-->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.10</version>
+            </dependency>
+            <!-- mq dependency -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jdom</groupId>
+                <artifactId>jdom2</artifactId>
+                <version>2.0.5</version>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+
+    <modules>
+        <module>app/core</module>
+        <module>app/endpoint</module>
+        <module>app/facade</module>
+        <module>app/test</module>
+        <module>app/web</module>
+        <module>app/dal</module>
+    </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>dzjk@snapshots</id>
+            <url>http://139.224.149.240:8082/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </distributionManagement>
+</project>

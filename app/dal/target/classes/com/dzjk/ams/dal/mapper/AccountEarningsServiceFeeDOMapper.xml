@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.AccountEarningsServiceFeeDOMapper">
+    <!-- 自动生成,请修改 AMS_ACCOUNT_EARNINGS_SERVICE_FEE.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.AccountEarningsServiceFeeDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="ORG_ID" property="orgId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="STATUS" property="status" jdbcType="VARCHAR" javaType="String"/>
+        <result column="FEE_NAME" property="feeName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="FEE_TYPE" property="feeType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="FEE_AMOUNT" property="feeAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="SERVICE_FEE_ID" property="serviceFeeId" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,ORG_ID,STATUS,FEE_NAME,FEE_TYPE,CREATED_BY,FEE_AMOUNT,UPDATED_BY,CREATED_TIME,UPDATED_TIME,SERVICE_FEE_ID
+    </sql>
+
+
+    <!--插入表:AMS_ACCOUNT_EARNINGS_SERVICE_FEE-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_ACCOUNT_EARNINGS_SERVICE_FEE(
+            ID
+            ,ORG_ID
+            ,STATUS
+            ,FEE_NAME
+            ,FEE_TYPE
+            ,CREATED_BY
+            ,FEE_AMOUNT
+            ,UPDATED_BY
+            ,CREATED_TIME
+            ,UPDATED_TIME
+            ,SERVICE_FEE_ID
+        )VALUES(
+             #{id,jdbcType=INTEGER}
+            , #{orgId,jdbcType=INTEGER}
+            , #{status,jdbcType=VARCHAR}
+            , #{feeName,jdbcType=VARCHAR}
+            , #{feeType,jdbcType=VARCHAR}
+            , #{createdBy,jdbcType=VARCHAR}
+            , #{feeAmount,jdbcType=DECIMAL}
+            , #{updatedBy,jdbcType=VARCHAR}
+            , #{createdTime,jdbcType=TIMESTAMP}
+            , #{updatedTime,jdbcType=TIMESTAMP}
+            , #{serviceFeeId,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:AMS_ACCOUNT_EARNINGS_SERVICE_FEE-->
+    <update id="update" >
+        UPDATE /*MS-AMS-ACCOUNT-EARNINGS-SERVICE-FEE-UPDATE*/ AMS_ACCOUNT_EARNINGS_SERVICE_FEE
+        SET
+            STATUS          = #{status,jdbcType=VARCHAR}
+            ,FEE_NAME        = #{feeName,jdbcType=VARCHAR}
+            ,FEE_TYPE        = #{feeType,jdbcType=VARCHAR}
+            ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+            ,FEE_AMOUNT      = #{feeAmount,jdbcType=DECIMAL}
+            ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+            ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+            ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+            ,SERVICE_FEE_ID  = #{serviceFeeId,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=INTEGER}
+            AND ORG_ID          = #{orgId,jdbcType=INTEGER}
+    </update>
+
+    <!--根据主键删除数据:AMS_ACCOUNT_EARNINGS_SERVICE_FEE-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-AMS-ACCOUNT-EARNINGS-SERVICE-FEE-DELETEBYPRIMARY*/ FROM
+            AMS_ACCOUNT_EARNINGS_SERVICE_FEE
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+    </delete>
+
+    <!--根据主键获取数据:AMS_ACCOUNT_EARNINGS_SERVICE_FEE-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-EARNINGS-SERVICE-FEE-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_EARNINGS_SERVICE_FEE
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+            AND ORG_ID = #{orgId,jdbcType=INTEGER}
+    </select>
+
+    <!---->
+    <select id="getEarningsFee" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-EARNINGS-SERVICE-FEE-GETEARNINGSFEE*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_EARNINGS_SERVICE_FEE
+        WHERE status=1
+        <if test="serviceFeeId!='' and serviceFeeId!=null">
+            and service_fee_id = #{serviceFeeId,jdbcType=VARCHAR}
+        </if>
+        <if test="fee_type !='' and fee_type!=null">
+            and fee_type=#{feeType,jdbcType=VARCHAR}
+        </if>
+    </select>
+</mapper>

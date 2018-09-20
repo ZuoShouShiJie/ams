@@ -1,0 +1,184 @@
+2018-03-17 23:01:58.088 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-03-17 23:01:58.179 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:03.411 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-03-17 23:02:03.536 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configLocation' not specified, using default MyBatis Configuration
+2018-03-17 23:02:03.942 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountBorrowDOMapper.xml]'
+2018-03-17 23:02:03.989 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountEarningsDOMapper.xml]'
+2018-03-17 23:02:04.051 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountEarningsServiceFeeDOMapper.xml]'
+2018-03-17 23:02:04.098 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountingDOMapper.xml]'
+2018-03-17 23:02:04.160 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountRepayPlanDOMapper.xml]'
+2018-03-17 23:02:04.191 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountRepaySerialDOMapper.xml]'
+2018-03-17 23:02:04.223 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\AccountRepayServiceFeeDOMapper.xml]'
+2018-03-17 23:02:04.254 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\CustomerInfoDOMapper.xml]'
+2018-03-17 23:02:04.269 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\IdeaProject\ams\app\dal\target\classes\com\dzjk\ams\dal\mapper\UniqueCheckDOMapper.xml]'
+2018-03-17 23:02:35.579 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.594 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.594 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.594 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.594 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.688 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.688 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.688 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.688 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.688 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.813 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.828 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.844 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:35.844 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:35.844 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:35.844 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:35.844 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:35.860 [main] DEBUG i.n.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-03-17 23:02:35.891 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2018-03-17 23:02:35.891 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent - Java version: 7
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2018-03-17 23:02:35.906 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2018-03-17 23:02:36.078 [main] DEBUG io.netty.util.internal.PlatformDependent - Javassist: available
+2018-03-17 23:02:36.078 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\DAIXIA~1\AppData\Local\Temp (java.io.tmpdir)
+2018-03-17 23:02:36.078 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-03-17 23:02:36.078 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2018-03-17 23:02:36.078 [main] DEBUG io.netty.util.internal.PlatformDependent - io.netty.maxDirectMemory: 1840250880 bytes
+2018-03-17 23:02:36.172 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:02:36.172 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:02:36.172 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:02:36.172 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:02:36.187 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:02:36.265 [main] DEBUG ConfigMonitorLog - config monitor file path:C:\Users\daixiaohu/notify/client/conf/notifyclient.properties
+2018-03-17 23:02:36.281 [main] DEBUG com.taobao.notify.utils.UniqId - [com.taobao.notify.utils.UniqId]
+hostAddr is:192.168.1.105
+2018-03-17 23:02:36.468 [main] DEBUG c.t.n.brokeraddress.BrokerAddressListenerAbstract - AntVip instance info [com.antcloud.antvip.client.AntVipInstanceInfo@3f0cab33]
+2018-03-17 23:03:11.849 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:11.849 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:11.849 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:11.849 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:11.849 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:11.864 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:11.864 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:11.864 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:11.864 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:11.864 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:12.036 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2018-03-17 23:03:12.036 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2018-03-17 23:03:12.036 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-03-17 23:03:12.052 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2018-03-17 23:03:33.221 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy114
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:33.221 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:33.236 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:33.907 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy114
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:33.907 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:34.422 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:34.422 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:34.422 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:34.422 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:34.422 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:34.438 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:34.453 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:34.453 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:34.453 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:34.453 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:34.453 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:35.046 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy114
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-03-17 23:03:35.046 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-03-17 23:03:36.731 [main] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.FullHttpRequestMatcher
+2018-03-17 23:03:36.731 [main] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.jboss.resteasy.spi.HttpResponseMatcher
+2018-03-17 23:03:36.746 [main] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.com.alipay.sofa.rest.server.netty.support.NettyHttpRequestMatcher
+2018-03-17 23:03:36.762 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8064 (auto-detected)
+2018-03-17 23:03:36.778 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2018-03-17 23:03:36.778 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2018-03-17 23:03:36.934 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-03-17 23:03:36.934 [main] DEBUG io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2018-03-17 23:03:37.105 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:45:20:ff:fe:79:7b:06 (auto-detected)
+2018-03-17 23:03:37.105 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdd4c8550ef745804
+2018-03-17 23:03:37.121 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2018-03-17 23:03:37.121 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-03-17 23:03:37.152 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-03-17 23:04:01.613 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2018-03-17 23:04:01.613 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8fb847d] was not registered for synchronization because synchronization is not active
+2018-03-17 23:04:02.268 [main] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3f5aa0a3] will not be managed by Spring
+2018-03-17 23:04:02.486 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8fb847d]
+2018-03-17 23:04:02.518 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2018-03-17 23:04:02.518 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b4e02ce] was not registered for synchronization because synchronization is not active
+2018-03-17 23:04:02.518 [main] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3f5aa0a3] will not be managed by Spring
+2018-03-17 23:04:02.892 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b4e02ce]

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.configserver:config-client:4.3.0.alipay">
+    <CLASSES>
+      <root url="jar://E:/work/repo/com/taobao/configserver/config-client/4.3.0.alipay/config-client-4.3.0.alipay.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/work/repo/com/taobao/configserver/config-client/4.3.0.alipay/config-client-4.3.0.alipay-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/work/repo/com/taobao/configserver/config-client/4.3.0.alipay/config-client-4.3.0.alipay-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

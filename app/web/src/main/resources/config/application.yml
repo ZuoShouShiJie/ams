@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: ams
+  output:
+      ansi:
+        enabled: ALWAYS
+
+  level: DEBUG
+
+server:
+  port: 8080
+
+logging:
+  path: ../../logs
+
+run:
+  mode: DEV
+
+com:
+  test: com.test
+  dzjk: com.dzjk
+
+ams:
+  jdbc:
+    url: jdbc:mysql://rm-zm0e5tm6z63ly5vdxuo.mysql.rds.aliyuncs.com:3306/dzjk_ams?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: dbadmin
+    passwd: maiziJF2017
+    driverClassName: com.mysql.jdbc.Driver
+  druid:
+        filters: stat
+  testWhileIdle: false
+  minIdle: 10
+  removeAbandoned: true
+  maxActive: 10
+  testOnBorrow: true
+  maxIdle: 8
+  testOnReturn: false
+  poolPreparedStatements: true
+  minEvictableIdleTimeMillis: 60000
+  validationQuery: select 1 from dual
+  removeAbandonedTimeout: 60
+  initialSize: 9
+  defaultAutoCommit: true
+  logAbandoned: false
+  timeBetweenEvictionRunsMillis: 300000
+  maxOpenPreparedStatements: 1000

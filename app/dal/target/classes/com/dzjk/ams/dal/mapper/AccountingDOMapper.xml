@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.AccountingDOMapper">
+    <!-- 自动生成,请修改 AMS_ACCOUNTING.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.AccountingDO">
+        <id column="ID" property="id" jdbcType="VARCHAR" javaType="String"/>
+        <result column="BO_ID" property="boId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="ROUTE" property="route" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CERT_NO" property="certNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MOBILE" property="mobile" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATER" property="creater" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CERT_TYPE" property="certType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="LEND_DATE" property="lendDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="LEND_TIME" property="lendTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="MODIFIER" property="modifier" jdbcType="VARCHAR" javaType="String"/>
+        <result column="RATE_TYPE" property="rateType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_NAME" property="userName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ACCOUNT_ID" property="accountId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="IS_FULL_FEE" property="isFullFee" jdbcType="VARCHAR" javaType="String"/>
+        <result column="LOAN_USAGE" property="loanUsage" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PRODUCT_ID" property="productId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="REPAY_DATE" property="repayDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_RATE" property="repayRate" jdbcType="VARCHAR" javaType="String"/>
+        <result column="REPAY_TYPE" property="repayType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CONTRACT_NO" property="contractNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="LEND_AMOUNT" property="lendAmount" jdbcType="BIGINT" javaType="Long"/>
+        <result column="LOAN_AMOUNT" property="loanAmount" jdbcType="BIGINT" javaType="Long"/>
+        <result column="MERCHANT_ID" property="merchantId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="MODIFY_TIME" property="modifyTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="APPROVE_DATE" property="approveDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="APPROVE_TIME" property="approveTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="PRODUCT_TYPE" property="productType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="RECEIPT_RATE" property="receiptRate" jdbcType="VARCHAR" javaType="String"/>
+        <result column="REPAY_PERIOD" property="repayPeriod" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="REPAY_STATUS" property="repayStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CONTRACT_TYPE" property="contractType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="INTEREST_ACCU" property="interestAccu" jdbcType="BIGINT" javaType="Long"/>
+        <result column="OVERDUE_TIMES" property="overdueTimes" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="PLATFORM_RATE" property="platformRate" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ACCOUNT_AMOUNT" property="accountAmount" jdbcType="BIGINT" javaType="Long"/>
+        <result column="CAPITAL_AMOUNT" property="capitalAmount" jdbcType="BIGINT" javaType="Long"/>
+        <result column="LAST_REPAY_DATE" property="lastRepayDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="MAX_OVERDUE_DAY" property="maxOverdueDay" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="NEXT_REPAY_DATE" property="nextRepayDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="PUNISH_FEE_ACCU" property="punishFeeAccu" jdbcType="BIGINT" javaType="Long"/>
+        <result column="REPAY_ACCT_BANK" property="repayAcctBank" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CAPITAL_ADVANCE" property="capitalAdvance" jdbcType="BIGINT" javaType="Long"/>
+        <result column="CONTRACT_AMOUNT" property="contractAmount" jdbcType="BIGINT" javaType="Long"/>
+        <result column="CURR_OVERDUE_DAY" property="currOverdueDay" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="FIRST_REPAY_DATE" property="firstRepayDate" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_ACCOUNT_NO" property="repayAccountNo" jdbcType="VARCHAR" javaType="String"/>
+        <result column="SERVICE_FEE_ACCU" property="serviceFeeAccu" jdbcType="BIGINT" javaType="Long"/>
+        <result column="INTEREST_ADVANCE" property="interestAdvance" jdbcType="BIGINT" javaType="Long"/>
+        <result column="REPAY_ACCT_MOBILE" property="repayAcctMobile" jdbcType="VARCHAR" javaType="String"/>
+        <result column="REPAY_ACCOUNT_NAME" property="repayAccountName" jdbcType="VARCHAR" javaType="String"/>
+        <result column="TOTAL_CAPITAL_LEFT" property="totalCapitalLeft" jdbcType="BIGINT" javaType="Long"/>
+        <result column="REPAY_FLOATING_RATE" property="repayFloatingRate" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,BO_ID,ROUTE,CERT_NO,MOBILE,CREATER,CERT_TYPE,LEND_DATE,LEND_TIME,MODIFIER,RATE_TYPE,USER_NAME,ACCOUNT_ID,IS_FULL_FEE,LOAN_USAGE,PRODUCT_ID,REPAY_DATE,REPAY_RATE,REPAY_TYPE,CONTRACT_NO,CREATE_TIME,LEND_AMOUNT,LOAN_AMOUNT,MERCHANT_ID,MODIFY_TIME,APPROVE_DATE,APPROVE_TIME,PRODUCT_TYPE,RECEIPT_RATE,REPAY_PERIOD,REPAY_STATUS,CONTRACT_TYPE,INTEREST_ACCU,OVERDUE_TIMES,PLATFORM_RATE,ACCOUNT_AMOUNT,CAPITAL_AMOUNT,LAST_REPAY_DATE,MAX_OVERDUE_DAY,NEXT_REPAY_DATE,PUNISH_FEE_ACCU,REPAY_ACCT_BANK,CAPITAL_ADVANCE,CONTRACT_AMOUNT,CURR_OVERDUE_DAY,FIRST_REPAY_DATE,REPAY_ACCOUNT_NO,SERVICE_FEE_ACCU,INTEREST_ADVANCE,REPAY_ACCT_MOBILE,REPAY_ACCOUNT_NAME,TOTAL_CAPITAL_LEFT,REPAY_FLOATING_RATE
+    </sql>
+
+
+    <!--插入表:AMS_ACCOUNTING-->
+    <insert id="insertByRoute" >
+        INSERT INTO AMS_ACCOUNTING_${route}(
+            ID
+            ,ROUTE
+        )VALUES(
+             #{id,jdbcType=VARCHAR}
+            , #{route,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:AMS_ACCOUNTING-->
+    <update id="updateByRoute" >
+        UPDATE /*MS-AMS-ACCOUNTING-UPDATEBYROUTE*/ AMS_ACCOUNTING_#{route}
+        SET
+            BO_ID           = #{boId,jdbcType=BIGINT}
+            ,ROUTE           = #{route,jdbcType=VARCHAR}
+            ,CERT_NO         = #{certNo,jdbcType=VARCHAR}
+            ,MOBILE          = #{mobile,jdbcType=VARCHAR}
+            ,CREATER         = #{creater,jdbcType=VARCHAR}
+            ,CERT_TYPE       = #{certType,jdbcType=VARCHAR}
+            ,LEND_DATE       = #{lendDate,jdbcType=TIMESTAMP}
+            ,LEND_TIME       = #{lendTime,jdbcType=TIMESTAMP}
+            ,MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,RATE_TYPE       = #{rateType,jdbcType=VARCHAR}
+            ,USER_NAME       = #{userName,jdbcType=VARCHAR}
+            ,ACCOUNT_ID      = #{accountId,jdbcType=VARCHAR}
+            ,IS_FULL_FEE     = #{isFullFee,jdbcType=VARCHAR}
+            ,LOAN_USAGE      = #{loanUsage,jdbcType=VARCHAR}
+            ,PRODUCT_ID      = #{productId,jdbcType=BIGINT}
+            ,REPAY_DATE      = #{repayDate,jdbcType=TIMESTAMP}
+            ,REPAY_RATE      = #{repayRate,jdbcType=VARCHAR}
+            ,REPAY_TYPE      = #{repayType,jdbcType=VARCHAR}
+            ,CONTRACT_NO     = #{contractNo,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,LEND_AMOUNT     = #{lendAmount,jdbcType=BIGINT}
+            ,LOAN_AMOUNT     = #{loanAmount,jdbcType=BIGINT}
+            ,MERCHANT_ID     = #{merchantId,jdbcType=BIGINT}
+            ,MODIFY_TIME     = #{modifyTime,jdbcType=TIMESTAMP}
+            ,APPROVE_DATE    = #{approveDate,jdbcType=TIMESTAMP}
+            ,APPROVE_TIME    = #{approveTime,jdbcType=TIMESTAMP}
+            ,PRODUCT_TYPE    = #{productType,jdbcType=VARCHAR}
+            ,RECEIPT_RATE    = #{receiptRate,jdbcType=VARCHAR}
+            ,REPAY_PERIOD    = #{repayPeriod,jdbcType=INTEGER}
+            ,REPAY_STATUS    = #{repayStatus,jdbcType=VARCHAR}
+            ,CONTRACT_TYPE   = #{contractType,jdbcType=VARCHAR}
+            ,INTEREST_ACCU   = #{interestAccu,jdbcType=BIGINT}
+            ,OVERDUE_TIMES   = #{overdueTimes,jdbcType=INTEGER}
+            ,PLATFORM_RATE   = #{platformRate,jdbcType=VARCHAR}
+            ,ACCOUNT_AMOUNT  = #{accountAmount,jdbcType=BIGINT}
+            ,CAPITAL_AMOUNT  = #{capitalAmount,jdbcType=BIGINT}
+            ,LAST_REPAY_DATE = #{lastRepayDate,jdbcType=TIMESTAMP}
+            ,MAX_OVERDUE_DAY = #{maxOverdueDay,jdbcType=INTEGER}
+            ,NEXT_REPAY_DATE = #{nextRepayDate,jdbcType=TIMESTAMP}
+            ,PUNISH_FEE_ACCU = #{punishFeeAccu,jdbcType=BIGINT}
+            ,REPAY_ACCT_BANK = #{repayAcctBank,jdbcType=VARCHAR}
+            ,CAPITAL_ADVANCE = #{capitalAdvance,jdbcType=BIGINT}
+            ,CONTRACT_AMOUNT = #{contractAmount,jdbcType=BIGINT}
+            ,CURR_OVERDUE_DAY = #{currOverdueDay,jdbcType=INTEGER}
+            ,FIRST_REPAY_DATE = #{firstRepayDate,jdbcType=TIMESTAMP}
+            ,REPAY_ACCOUNT_NO = #{repayAccountNo,jdbcType=VARCHAR}
+            ,SERVICE_FEE_ACCU = #{serviceFeeAccu,jdbcType=BIGINT}
+            ,INTEREST_ADVANCE = #{interestAdvance,jdbcType=BIGINT}
+            ,REPAY_ACCT_MOBILE = #{repayAcctMobile,jdbcType=VARCHAR}
+            ,REPAY_ACCOUNT_NAME = #{repayAccountName,jdbcType=VARCHAR}
+            ,TOTAL_CAPITAL_LEFT = #{totalCapitalLeft,jdbcType=BIGINT}
+            ,REPAY_FLOATING_RATE = #{repayFloatingRate,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=VARCHAR}
+    </update>
+
+    <!--根据主键删除数据:AMS_ACCOUNTING-->
+    <delete id="deleteByPrimaryByRoute" >
+        DELETE /*MS-AMS-ACCOUNTING-DELETEBYPRIMARYBYROUTE*/ FROM
+            AMS_ACCOUNTING_#{route}
+        WHERE
+            ID = #{id,jdbcType=VARCHAR}
+    </delete>
+
+    <!--根据主键获取数据:AMS_ACCOUNTING-->
+    <select id="getByPrimaryByRoute" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNTING-GETBYPRIMARYBYROUTE*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNTING_#{route}
+        WHERE
+            ID = #{id,jdbcType=VARCHAR}
+    </select>
+</mapper>

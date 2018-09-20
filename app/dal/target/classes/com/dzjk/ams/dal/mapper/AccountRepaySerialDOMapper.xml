@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.ams.dal.mapper.AccountRepaySerialDOMapper">
+    <!-- 自动生成,请修改 AMS_ACCOUNT_REPAY_SERIAL.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.ams.dal.dataobject.AccountRepaySerialDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="BO_ID" property="boId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="ORG_ID" property="orgId" jdbcType="BIGINT" javaType="Long"/>
+        <result column="STATUS" property="status" jdbcType="VARCHAR" javaType="String"/>
+        <result column="USER_ID" property="userId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PERIOD_NUM" property="periodNum" jdbcType="VARCHAR" javaType="String"/>
+        <result column="REPAY_TIME" property="repayTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_TYPE" property="repayType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="REPAY_AMOUNT" property="repayAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="REPAY_STATUS" property="repayStatus" jdbcType="VARCHAR" javaType="String"/>
+        <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="SERIAL_NUMBER" property="serialNumber" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CAPITAL_AMOUNT" property="capitalAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+        <result column="INTEREST_AMOUNT" property="interestAmount" jdbcType="DECIMAL" javaType="java.math.BigDecimal"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,BO_ID,ORG_ID,STATUS,USER_ID,CREATED_BY,PERIOD_NUM,REPAY_TIME,REPAY_TYPE,UPDATED_BY,CREATED_TIME,REPAY_AMOUNT,REPAY_STATUS,UPDATED_TIME,SERIAL_NUMBER,CAPITAL_AMOUNT,INTEREST_AMOUNT
+    </sql>
+
+
+    <!--插入表:AMS_ACCOUNT_REPAY_SERIAL-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO AMS_ACCOUNT_REPAY_SERIAL(
+            ID
+            ,BO_ID
+            ,ORG_ID
+            ,STATUS
+            ,USER_ID
+            ,CREATED_BY
+            ,PERIOD_NUM
+            ,REPAY_TIME
+            ,REPAY_TYPE
+            ,UPDATED_BY
+            ,CREATED_TIME
+            ,REPAY_AMOUNT
+            ,REPAY_STATUS
+            ,UPDATED_TIME
+            ,SERIAL_NUMBER
+            ,CAPITAL_AMOUNT
+            ,INTEREST_AMOUNT
+        ,REMARK
+        )VALUES(
+             #{id,jdbcType=BIGINT}
+            , #{boId,jdbcType=VARCHAR}
+            , #{orgId,jdbcType=BIGINT}
+            , #{status,jdbcType=VARCHAR}
+            , #{userId,jdbcType=VARCHAR}
+            , #{createdBy,jdbcType=VARCHAR}
+            , #{periodNum,jdbcType=VARCHAR}
+            , #{repayTime,jdbcType=TIMESTAMP}
+            , #{repayType,jdbcType=VARCHAR}
+            , #{updatedBy,jdbcType=VARCHAR}
+            , #{createdTime,jdbcType=TIMESTAMP}
+            , #{repayAmount,jdbcType=DECIMAL}
+            , #{repayStatus,jdbcType=VARCHAR}
+            , #{updatedTime,jdbcType=TIMESTAMP}
+            , #{serialNumber,jdbcType=VARCHAR}
+            , #{capitalAmount,jdbcType=DECIMAL}
+            , #{interestAmount,jdbcType=DECIMAL}
+            , #{remark,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:AMS_ACCOUNT_REPAY_SERIAL-->
+    <update id="update" >
+        UPDATE /*MS-AMS-ACCOUNT-REPAY-SERIAL-UPDATE*/ AMS_ACCOUNT_REPAY_SERIAL
+        SET
+            BO_ID           = #{boId,jdbcType=VARCHAR}
+            ,STATUS          = #{status,jdbcType=VARCHAR}
+            ,USER_ID         = #{userId,jdbcType=VARCHAR}
+            ,CREATED_BY      = #{createdBy,jdbcType=VARCHAR}
+            ,PERIOD_NUM      = #{periodNum,jdbcType=VARCHAR}
+            ,REPAY_TIME      = #{repayTime,jdbcType=TIMESTAMP}
+            ,REPAY_TYPE      = #{repayType,jdbcType=VARCHAR}
+            ,UPDATED_BY      = #{updatedBy,jdbcType=VARCHAR}
+            ,CREATED_TIME    = #{createdTime,jdbcType=TIMESTAMP}
+            ,REPAY_AMOUNT    = #{repayAmount,jdbcType=DECIMAL}
+            ,REPAY_STATUS    = #{repayStatus,jdbcType=VARCHAR}
+            ,UPDATED_TIME    = #{updatedTime,jdbcType=TIMESTAMP}
+            ,SERIAL_NUMBER   = #{serialNumber,jdbcType=VARCHAR}
+            ,CAPITAL_AMOUNT  = #{capitalAmount,jdbcType=DECIMAL}
+            ,INTEREST_AMOUNT = #{interestAmount,jdbcType=DECIMAL}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+            AND ORG_ID          = #{orgId,jdbcType=BIGINT}
+    </update>
+
+    <!--根据主键删除数据:AMS_ACCOUNT_REPAY_SERIAL-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-AMS-ACCOUNT-REPAY-SERIAL-DELETEBYPRIMARY*/ FROM
+            AMS_ACCOUNT_REPAY_SERIAL
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </delete>
+
+    <!--根据主键获取数据:AMS_ACCOUNT_REPAY_SERIAL-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-AMS-ACCOUNT-REPAY-SERIAL-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM AMS_ACCOUNT_REPAY_SERIAL
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+            AND ORG_ID = #{orgId,jdbcType=BIGINT}
+    </select>
+</mapper>
